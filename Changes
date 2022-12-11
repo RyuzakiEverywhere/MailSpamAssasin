@@ -1,0 +1,3931 @@
+------------------------------------------------------------------------
+r1888513 | hege | 2021-04-08 10:29:27 +0000 (Thu, 08 Apr 2021) | 2 lines
+ 
+ Bug 7892 - T_KAM_HTML_FONT_INVALID false positive for "<color> 
+!important"
+ 
+------------------------------------------------------------------------
+r1888498 | sidney | 2021-04-08 05:13:34 +0000 (Thu, 08 Apr 2021) | 1 line
+ 
+ Update PMC list
+------------------------------------------------------------------------
+r1888492 | sidney | 2021-04-08 04:01:39 +0000 (Thu, 08 Apr 2021) | 1 line
+ 
+ preparing to release 3.4.6-rc1
+------------------------------------------------------------------------
+r1888435 | hege | 2021-04-06 13:08:42 +0000 (Tue, 06 Apr 2021) | 2 lines
+ 
+ Revert Revision 1878575,1878574,1878572 (Bugs 7822, 7822), remove any 
+traces of undocumented check_cleanup from 3.4, metas do not work 
+correctly with it. URIDNSBL/HashBL revert to logging only first hit, any 
+improvements will be in 4.0 only.
+ 
+------------------------------------------------------------------------
+r1888433 | hege | 2021-04-06 13:06:49 +0000 (Tue, 06 Apr 2021) | 2 lines
+ 
+ Bug 7897 - add test case for meta net-rules
+ 
+------------------------------------------------------------------------
+r1888042 | sidney | 2021-03-24 23:49:14 +0000 (Wed, 24 Mar 2021) | 1 line
+ 
+ post-release of 3.4.5 ready new development version 3.4.6 in case there 
+is any more development required in this branch
+------------------------------------------------------------------------
+r1888010 | sidney | 2021-03-24 14:27:23 +0000 (Wed, 24 Mar 2021) | 1 line
+ 
+ update 3.4.5 announcement file with actual checksums
+------------------------------------------------------------------------
+r1887843 | sidney | 2021-03-20 09:14:03 +0000 (Sat, 20 Mar 2021) | 1 line
+ 
+ preparing to release 3.4.5 (supersedes r1887620)
+------------------------------------------------------------------------
+r1887653 | sidney | 2021-03-14 21:37:10 +0000 (Sun, 14 Mar 2021) | 1 line
+ 
+ preparing to release 3.4.5-rc2
+------------------------------------------------------------------------
+r1887620 | sidney | 2021-03-14 08:16:27 +0000 (Sun, 14 Mar 2021) | 1 line
+ 
+ preparing to release 3.4.5
+------------------------------------------------------------------------
+r1887306 | hege | 2021-03-07 21:56:45 +0000 (Sun, 07 Mar 2021) | 2 lines
+ 
+ Fix previous commit, need to allow multiple AskDNS hits
+ 
+------------------------------------------------------------------------
+r1887305 | hege | 2021-03-07 21:51:31 +0000 (Sun, 07 Mar 2021) | 2 lines
+ 
+ AskDNS cleanups and fixes for Bug 7777 & Bug 7875 (Multiple DNS 
+responses)
+ 
+------------------------------------------------------------------------
+r1886188 | gbechis | 2021-02-04 08:02:07 +0000 (Thu, 04 Feb 2021) | 3 
+lines
+ 
+ do not consider oleobject1.bin files as bad,
+ they could also be images
+ 
+------------------------------------------------------------------------
+r1885637 | kmcgrail | 2021-01-18 05:37:09 +0000 (Mon, 18 Jan 2021) | 1 
+line
+ 
+ preparing to release 3.4.5-rc1
+------------------------------------------------------------------------
+r1885636 | kmcgrail | 2021-01-18 05:36:12 +0000 (Mon, 18 Jan 2021) | 1 
+line
+ 
+ adding spam that hits razor for testing
+------------------------------------------------------------------------
+r1885345 | kb | 2021-01-11 02:51:19 +0000 (Mon, 11 Jan 2021) | 1 line
+ 
+ BodyEval: plaintext_body_sig_ratio eval rules, bug 7879
+------------------------------------------------------------------------
+r1885234 | gbechis | 2021-01-07 07:47:53 +0000 (Thu, 07 Jan 2021) | 2 
+lines
+ 
+ pod fixes
+ 
+------------------------------------------------------------------------
+r1885233 | gbechis | 2021-01-07 07:31:13 +0000 (Thu, 07 Jan 2021) | 2 
+lines
+ 
+ clarify man page
+ 
+------------------------------------------------------------------------
+r1885214 | kb | 2021-01-06 21:08:43 +0000 (Wed, 06 Jan 2021) | 1 line
+ 
+ plaintext_body_sig_ratio: eval() rules for the (first text/plain MIME 
+part's) body and signature lengths and ratio
+------------------------------------------------------------------------
+r1884879 | gbechis | 2020-12-28 15:00:10 +0000 (Mon, 28 Dec 2020) | 2 
+lines
+ 
+ update [meta]cpan url
+ 
+------------------------------------------------------------------------
+r1884876 | gbechis | 2020-12-28 14:38:35 +0000 (Mon, 28 Dec 2020) | 2 
+lines
+ 
+ Mention some changes in 3.4.5
+ 
+------------------------------------------------------------------------
+r1884872 | kmcgrail | 2020-12-28 13:56:49 +0000 (Mon, 28 Dec 2020) | 1 
+line
+ 
+ More MANIFEST cleanup
+------------------------------------------------------------------------
+r1884871 | kmcgrail | 2020-12-28 13:51:17 +0000 (Mon, 28 Dec 2020) | 1 
+line
+ 
+ MANIFEST clean-up
+------------------------------------------------------------------------
+r1884870 | kmcgrail | 2020-12-28 13:48:59 +0000 (Mon, 28 Dec 2020) | 1 
+line
+ 
+ Fixing Copyright on CREDITS file
+------------------------------------------------------------------------
+r1883660 | gbechis | 2020-11-20 07:33:00 +0000 (Fri, 20 Nov 2020) | 2 
+lines
+ 
+ fix GeoIP open_type call, bz #7871
+ 
+------------------------------------------------------------------------
+r1883643 | gbechis | 2020-11-19 15:37:20 +0000 (Thu, 19 Nov 2020) | 2 
+lines
+ 
+ typo
+ 
+------------------------------------------------------------------------
+r1883642 | gbechis | 2020-11-19 15:35:33 +0000 (Thu, 19 Nov 2020) | 2 
+lines
+ 
+ specify in debug message that not all rule types are compatible
+ 
+------------------------------------------------------------------------
+r1883069 | gbechis | 2020-11-02 18:14:47 +0000 (Mon, 02 Nov 2020) | 3 
+lines
+ 
+ backport TextCat improvements from trunk
+ fix bz #7866
+ 
+------------------------------------------------------------------------
+r1882297 | gbechis | 2020-10-07 08:28:05 +0000 (Wed, 07 Oct 2020) | 2 
+lines
+ 
+ Missing files from previous commit, bz #7860
+ 
+------------------------------------------------------------------------
+r1882269 | gbechis | 2020-10-06 10:20:40 +0000 (Tue, 06 Oct 2020) | 4 
+lines
+ 
+ Make it possible to run the Spamassassin test suite against the installed
+ SpamAssassin files (rather than those in the source directory)
+ bz #7860
+ 
+------------------------------------------------------------------------
+r1881912 | jhardin | 2020-09-21 18:43:37 +0000 (Mon, 21 Sep 2020) | 1 line
+ 
+ Bug 7857: merge Revision 1881911 from trunk
+------------------------------------------------------------------------
+r1881784 | gbechis | 2020-09-17 07:17:40 +0000 (Thu, 17 Sep 2020) | 2 
+lines
+ 
+ exit if reallyallowplugin option is not specified
+ 
+------------------------------------------------------------------------
+r1881066 | billcole | 2020-08-21 19:29:57 +0000 (Fri, 21 Aug 2020) | 1 
+line
+ 
+ Understand deprecated charset=ascii correctly. BZ#7851
+------------------------------------------------------------------------
+r1880999 | billcole | 2020-08-19 17:31:48 +0000 (Wed, 19 Aug 2020) | 1 
+line
+ 
+ Fix duplicated-word typos in documentation BZ#7850
+------------------------------------------------------------------------
+r1880998 | billcole | 2020-08-19 17:26:15 +0000 (Wed, 19 Aug 2020) | 1 
+line
+ 
+ Add man page generation for sa-check_spamd BZ#7849
+------------------------------------------------------------------------
+r1879979 | hege | 2020-07-17 05:03:52 +0000 (Fri, 17 Jul 2020) | 2 lines
+ 
+ Bug 7810 - gmail has an extra dot in rDNS
+ 
+------------------------------------------------------------------------
+r1879806 | hege | 2020-07-12 10:18:32 +0000 (Sun, 12 Jul 2020) | 2 lines
+ 
+ Bug 7817 - Pyzor.pm - Show traceback in log
+ 
+------------------------------------------------------------------------
+r1879731 | kmcgrail | 2020-07-10 04:18:33 +0000 (Fri, 10 Jul 2020) | 1 
+line
+ 
+ Fixing powered by Apache SpamAssassin logo to the correct version 2.0
+------------------------------------------------------------------------
+r1879727 | billcole | 2020-07-09 21:59:24 +0000 (Thu, 09 Jul 2020) | 1 
+line
+ 
+ Don't assume versions are simple numbers
+------------------------------------------------------------------------
+r1879726 | billcole | 2020-07-09 20:42:56 +0000 (Thu, 09 Jul 2020) | 1 
+line
+ 
+ Don't treat versions like simple numbers
+------------------------------------------------------------------------
+r1879700 | hege | 2020-07-09 10:47:48 +0000 (Thu, 09 Jul 2020) | 2 lines
+ 
+ Backport EnvelopeFrom fixes from trunk (Revision 1844628,1864383) (Bug 
+7834)
+ 
+------------------------------------------------------------------------
+r1879123 | billcole | 2020-06-23 18:20:55 +0000 (Tue, 23 Jun 2020) | 4 
+lines
+ 
+ 
+ Fix Bug #7830: non-numeric version comparison. 
+ 
+ 
+------------------------------------------------------------------------
+r1879052 | kmcgrail | 2020-06-21 02:48:32 +0000 (Sun, 21 Jun 2020) | 1 
+line
+ 
+ preparing to release 3.4.5-pre1
+------------------------------------------------------------------------
+r1878990 | hege | 2020-06-19 14:11:26 +0000 (Fri, 19 Jun 2020) | 2 lines
+ 
+ Bug 7828 - uri_detail lacks support for key type "host"
+ 
+------------------------------------------------------------------------
+r1878575 | hege | 2020-06-08 05:18:37 +0000 (Mon, 08 Jun 2020) | 2 lines
+ 
+ Log all URIBL hit domains in report
+ 
+------------------------------------------------------------------------
+r1878574 | hege | 2020-06-08 04:44:27 +0000 (Mon, 08 Jun 2020) | 2 lines
+ 
+ Bug 7822: HashBL not examining all addresses in a message
+ 
+------------------------------------------------------------------------
+r1878572 | hege | 2020-06-08 04:18:44 +0000 (Mon, 08 Jun 2020) | 2 lines
+ 
+ Backport check_cleanup callback from trunk for internal use, not 
+documenting since it will only be in 3.4.5
+ 
+------------------------------------------------------------------------
+r1878568 | hege | 2020-06-07 16:34:50 +0000 (Sun, 07 Jun 2020) | 2 lines
+ 
+ Clarify some HashBL docs
+ 
+------------------------------------------------------------------------
+r1878559 | hege | 2020-06-07 10:41:22 +0000 (Sun, 07 Jun 2020) | 2 lines
+ 
+ Bug 7822: HashBL not examining all addresses in a message
+ 
+------------------------------------------------------------------------
+r1877459 | gbechis | 2020-05-06 22:36:46 +0000 (Wed, 06 May 2020) | 2 
+lines
+ 
+ always pass the rulename to bgsend_and_start_lookup
+ 
+------------------------------------------------------------------------
+r1877139 | gbechis | 2020-04-28 19:21:04 +0000 (Tue, 28 Apr 2020) | 3 
+lines
+ 
+ fix warnings that happens when From: is not a proper email address
+ bz 7811
+ 
+------------------------------------------------------------------------
+r1877124 | gbechis | 2020-04-28 09:50:37 +0000 (Tue, 28 Apr 2020) | 3 
+lines
+ 
+ fix txrep tags, "_" is not an allowed char in tag names
+ fixes bz 7749
+ 
+------------------------------------------------------------------------
+r1876821 | hege | 2020-04-22 10:00:36 +0000 (Wed, 22 Apr 2020) | 2 lines
+ 
+ Allow undefined suppl_attrib just in case
+ 
+------------------------------------------------------------------------
+r1876795 | hege | 2020-04-21 12:28:07 +0000 (Tue, 21 Apr 2020) | 2 lines
+ 
+ Add some suppl_attrib debugging
+ 
+------------------------------------------------------------------------
+r1876780 | gbechis | 2020-04-21 09:20:23 +0000 (Tue, 21 Apr 2020) | 2 
+lines
+ 
+ silence a possible warning
+ 
+------------------------------------------------------------------------
+r1876711 | hege | 2020-04-19 06:25:48 +0000 (Sun, 19 Apr 2020) | 2 lines
+ 
+ Mention Bug 7803
+ 
+------------------------------------------------------------------------
+r1876710 | hege | 2020-04-19 06:18:25 +0000 (Sun, 19 Apr 2020) | 2 lines
+ 
+ Bug 7809 - unwhitelist broken
+ 
+------------------------------------------------------------------------
+r1876561 | hege | 2020-04-15 15:03:58 +0000 (Wed, 15 Apr 2020) | 2 lines
+ 
+ DNSEval cleanups, validate hostnames
+ 
+------------------------------------------------------------------------
+r1876556 | hege | 2020-04-15 13:59:34 +0000 (Wed, 15 Apr 2020) | 2 lines
+ 
+ Bug 7808 - Fix check_rbl_headers with multiple same headers
+ 
+------------------------------------------------------------------------
+r1876381 | hege | 2020-04-10 20:38:45 +0000 (Fri, 10 Apr 2020) | 2 lines
+ 
+ Fix header rule parsing
+ 
+------------------------------------------------------------------------
+r1876367 | hege | 2020-04-10 14:49:20 +0000 (Fri, 10 Apr 2020) | 2 lines
+ 
+ Bug 7750 - _DKIMSELECTOR_ template tag is not substituted, when mail is 
+not DKIM signed
+ 
+------------------------------------------------------------------------
+r1876350 | hege | 2020-04-10 08:22:55 +0000 (Fri, 10 Apr 2020) | 2 lines
+ 
+ Bug 7790 - Allow = character in pyzor_options
+ 
+------------------------------------------------------------------------
+r1876348 | hege | 2020-04-10 07:51:51 +0000 (Fri, 10 Apr 2020) | 2 lines
+ 
+ Bug 7803 - SQL schema of userpref table, value too short
+ 
+------------------------------------------------------------------------
+r1876347 | hege | 2020-04-10 07:47:37 +0000 (Fri, 10 Apr 2020) | 2 lines
+ 
+ Bug 7807 - t/spamd_ssl.t fails due to small key size
+ 
+------------------------------------------------------------------------
+r1876346 | hege | 2020-04-10 07:44:37 +0000 (Fri, 10 Apr 2020) | 2 lines
+ 
+ Bug 7763 - ssl tests must be run as root
+ 
+------------------------------------------------------------------------
+r1876320 | hege | 2020-04-09 12:40:52 +0000 (Thu, 09 Apr 2020) | 2 lines
+ 
+ Bug 7806 - Tainting through concatenation with $^X does not taint
+ 
+------------------------------------------------------------------------
+r1876218 | gbechis | 2020-04-07 08:20:15 +0000 (Tue, 07 Apr 2020) | 2 
+lines
+ 
+ match few more received lines
+ 
+------------------------------------------------------------------------
+r1875134 | gbechis | 2020-03-12 18:32:40 +0000 (Thu, 12 Mar 2020) | 5 
+lines
+ 
+ sync OLEVBMacro plugin with trunk
+ - check for undef before reading mime part
+ - add a new rule to check if on the doc file there is an url that 
+ triggers a download to an external malicious file
+ 
+------------------------------------------------------------------------
+r1874343 | gbechis | 2020-02-21 23:04:46 +0000 (Fri, 21 Feb 2020) | 4 
+lines
+ 
+ put [raw]body_part_scan_size documentation in the right
+ section of man page
+ fix bz 7796
+ 
+------------------------------------------------------------------------
+r1874012 | gbechis | 2020-02-14 10:57:25 +0000 (Fri, 14 Feb 2020) | 2 
+lines
+ 
+ another couple of too chatty info messages converted to dbg
+ 
+------------------------------------------------------------------------
+r1874010 | gbechis | 2020-02-14 10:35:39 +0000 (Fri, 14 Feb 2020) | 2 
+lines
+ 
+ switch a too chatty info into a dbg statement
+ 
+------------------------------------------------------------------------
+r1873859 | gbechis | 2020-02-10 14:33:45 +0000 (Mon, 10 Feb 2020) | 2 
+lines
+ 
+ one more OLEMacro marker
+ 
+------------------------------------------------------------------------
+r1873752 | gbechis | 2020-02-07 18:37:10 +0000 (Fri, 07 Feb 2020) | 2 
+lines
+ 
+ sync OLEVBMacro plugin with trunk
+ 
+------------------------------------------------------------------------
+r1873340 | hege | 2020-01-29 21:38:08 +0000 (Wed, 29 Jan 2020) | 2 lines
+ 
+ Clarify mimepart limit
+ 
+------------------------------------------------------------------------
+r1873200 | hege | 2020-01-27 09:43:17 +0000 (Mon, 27 Jan 2020) | 2 lines
+ 
+ More DKIM test files for different CRLF/LF cases
+ 
+------------------------------------------------------------------------
+r1873123 | kmcgrail | 2020-01-25 02:49:19 +0000 (Sat, 25 Jan 2020) | 1 
+line
+ 
+ preparing to release 3.4.4 (post rc-1)
+------------------------------------------------------------------------
+r1873122 | kmcgrail | 2020-01-25 02:04:07 +0000 (Sat, 25 Jan 2020) | 1 
+line
+ 
+ preparing announcement for 3.4.4
+------------------------------------------------------------------------
+r1872966 | kmcgrail | 2020-01-19 00:30:44 +0000 (Sun, 19 Jan 2020) | 1 
+line
+ 
+ Preparing to release 3.4.4
+------------------------------------------------------------------------
+r1872942 | hege | 2020-01-18 08:44:49 +0000 (Sat, 18 Jan 2020) | 2 lines
+ 
+ Revert DKIM change from Revision 1864870 (Bug 7785)
+ 
+------------------------------------------------------------------------
+r1872936 | gbechis | 2020-01-17 23:30:50 +0000 (Fri, 17 Jan 2020) | 2 
+lines
+ 
+ catch some more Microsoft Office encrypted documents
+ 
+------------------------------------------------------------------------
+r1872935 | gbechis | 2020-01-17 23:24:35 +0000 (Fri, 17 Jan 2020) | 2 
+lines
+ 
+ make SpamAssassin compatible with Perl 5.8.x again
+ 
+------------------------------------------------------------------------
+r1872912 | gbechis | 2020-01-17 10:31:08 +0000 (Fri, 17 Jan 2020) | 2 
+lines
+ 
+ Increase fns_extrachars default value to 50
+ 
+------------------------------------------------------------------------
+r1872864 | hege | 2020-01-16 07:40:02 +0000 (Thu, 16 Jan 2020) | 2 lines
+ 
+ Add missing is_admin to (raw)body_part_scan_size
+ 
+------------------------------------------------------------------------
+r1872863 | hege | 2020-01-16 07:31:23 +0000 (Thu, 16 Jan 2020) | 2 lines
+ 
+ Sync CREDITS from trunk
+ 
+------------------------------------------------------------------------
+r1872862 | hege | 2020-01-16 07:17:34 +0000 (Thu, 16 Jan 2020) | 2 lines
+ 
+ Check priority values
+ 
+------------------------------------------------------------------------
+r1872861 | hege | 2020-01-16 07:14:23 +0000 (Thu, 16 Jan 2020) | 2 lines
+ 
+ Use compiled patterns
+ 
+------------------------------------------------------------------------
+r1872800 | kmcgrail | 2020-01-15 02:29:58 +0000 (Wed, 15 Jan 2020) | 1 
+line
+ 
+  FromNameSpoof.pm requires 5.10.1+ so clarifying the docs on 3.4 EOL 
+branch
+------------------------------------------------------------------------
+r1872785 | hege | 2020-01-14 15:59:37 +0000 (Tue, 14 Jan 2020) | 2 lines
+ 
+ Improve SUBJ_ALL_CAPS
+ 
+------------------------------------------------------------------------
+r1872772 | hege | 2020-01-14 11:55:35 +0000 (Tue, 14 Jan 2020) | 2 lines
+ 
+ Fix nosubject and maxhits tflags when sa-compile is used
+ 
+------------------------------------------------------------------------
+r1872755 | hege | 2020-01-14 06:12:47 +0000 (Tue, 14 Jan 2020) | 2 lines
+ 
+ Fix debug test
+ 
+------------------------------------------------------------------------
+r1871709 | hege | 2019-12-17 21:42:32 +0000 (Tue, 17 Dec 2019) | 2 lines
+ 
+ Don't canonicalize stuff like #abcdef ?foobar /image.gif as http://
+ 
+------------------------------------------------------------------------
+r1871708 | hege | 2019-12-17 20:40:03 +0000 (Tue, 17 Dec 2019) | 2 lines
+ 
+ Bug 7776 - Limit Bayes parsed token count
+ 
+------------------------------------------------------------------------
+r1871698 | hege | 2019-12-17 14:28:28 +0000 (Tue, 17 Dec 2019) | 2 lines
+ 
+ Trim whitespace properly
+ 
+------------------------------------------------------------------------
+r1871697 | hege | 2019-12-17 14:10:37 +0000 (Tue, 17 Dec 2019) | 2 lines
+ 
+ Bug 7778 - T_KAM_HTML_FONT_INVALID false positive for "inherit"
+ 
+------------------------------------------------------------------------
+r1871204 | kmcgrail | 2019-12-11 22:44:50 +0000 (Wed, 11 Dec 2019) | 1 
+line
+ 
+ more tweaks to build process for clarity and syncing 3.4 and trunk
+------------------------------------------------------------------------
+r1871200 | kmcgrail | 2019-12-11 22:06:34 +0000 (Wed, 11 Dec 2019) | 1 
+line
+ 
+ Updating Build Docs to be clearer
+------------------------------------------------------------------------
+r1871194 | kmcgrail | 2019-12-11 21:17:29 +0000 (Wed, 11 Dec 2019) | 1 
+line
+ 
+ 3.4.3 RELEASED
+------------------------------------------------------------------------
+r1871193 | kmcgrail | 2019-12-11 21:14:24 +0000 (Wed, 11 Dec 2019) | 1 
+line
+ 
+ Fixing copyright on CREDITS
+------------------------------------------------------------------------
+r1871192 | kmcgrail | 2019-12-11 21:08:12 +0000 (Wed, 11 Dec 2019) | 1 
+line
+ 
+ final 3.4.3 announcement with new hashes
+------------------------------------------------------------------------
+r1871189 | kmcgrail | 2019-12-11 20:53:22 +0000 (Wed, 11 Dec 2019) | 1 
+line
+ 
+ Preparing to release 3.4.3 with a few small updates
+------------------------------------------------------------------------
+r1871188 | kmcgrail | 2019-12-11 20:45:11 +0000 (Wed, 11 Dec 2019) | 1 
+line
+ 
+ update of the announcement text prepping for 3.4.3 release
+------------------------------------------------------------------------
+r1871122 | hege | 2019-12-10 07:53:03 +0000 (Tue, 10 Dec 2019) | 2 lines
+ 
+ Some missing OLEMacro -> OLEVBMacro renames
+ 
+------------------------------------------------------------------------
+r1871075 | billcole | 2019-12-09 07:40:37 +0000 (Mon, 09 Dec 2019) | 3 
+lines
+ 
+ Flesh out "Notable changes," and fix some wrapping
+ 
+ 
+------------------------------------------------------------------------
+r1871074 | gbechis | 2019-12-09 07:30:42 +0000 (Mon, 09 Dec 2019) | 2 
+lines
+ 
+ mention _SUBTESTSCOLLAPSED(,)_ template tag
+ 
+------------------------------------------------------------------------
+r1871035 | gbechis | 2019-12-08 10:12:35 +0000 (Sun, 08 Dec 2019) | 3 
+lines
+ 
+ Describe changes to DNSEval and HashBL plugins.
+ Add info about new subjprefix keyword
+ 
+------------------------------------------------------------------------
+r1870963 | gbechis | 2019-12-07 08:31:50 +0000 (Sat, 07 Dec 2019) | 2 
+lines
+ 
+ OLEMacro plugin has been renamed to OLEVBMacro
+ 
+------------------------------------------------------------------------
+r1870943 | kmcgrail | 2019-12-07 01:07:41 +0000 (Sat, 07 Dec 2019) | 1 
+line
+ 
+ 1st pass at 3.4.3 announcement
+------------------------------------------------------------------------
+r1870940 | kmcgrail | 2019-12-06 23:58:14 +0000 (Fri, 06 Dec 2019) | 1 
+line
+ 
+ preparing to release 3.4.3
+------------------------------------------------------------------------
+r1870809 | gbechis | 2019-12-04 07:53:41 +0000 (Wed, 04 Dec 2019) | 2 
+lines
+ 
+ better regexp
+ 
+------------------------------------------------------------------------
+r1870806 | hege | 2019-12-04 07:41:25 +0000 (Wed, 04 Dec 2019) | 2 lines
+ 
+ Don't capture $1 for no reason
+ 
+------------------------------------------------------------------------
+r1870805 | gbechis | 2019-12-04 07:36:57 +0000 (Wed, 04 Dec 2019) | 3 
+lines
+ 
+ change some default values to catch more macros
+ seen on the wild
+ 
+------------------------------------------------------------------------
+r1870804 | gbechis | 2019-12-04 07:29:19 +0000 (Wed, 04 Dec 2019) | 3 
+lines
+ 
+ add more rtf markers to catch dangerous ole objects
+ in rtf files
+ 
+------------------------------------------------------------------------
+r1870554 | hege | 2019-11-28 10:28:21 +0000 (Thu, 28 Nov 2019) | 2 lines
+ 
+ AskDNS should use parsed_metadata instead of extract_metadata
+ 
+------------------------------------------------------------------------
+r1870552 | hege | 2019-11-28 10:04:41 +0000 (Thu, 28 Nov 2019) | 2 lines
+ 
+ Fix LASTEXTERNAL* tag usage affecting askdns and action_depends_on_tags
+ 
+------------------------------------------------------------------------
+r1870501 | hege | 2019-11-27 12:35:58 +0000 (Wed, 27 Nov 2019) | 2 lines
+ 
+ Fix various Received parsings
+ 
+------------------------------------------------------------------------
+r1870497 | hege | 2019-11-27 10:05:04 +0000 (Wed, 27 Nov 2019) | 2 lines
+ 
+ Bug 5646 - Postfix with set mail_name option doesn't recognize 
+authentication
+ 
+------------------------------------------------------------------------
+r1870353 | kmcgrail | 2019-11-25 03:18:21 +0000 (Mon, 25 Nov 2019) | 1 
+line
+ 
+ preparing to release 3.4.3-rc7
+------------------------------------------------------------------------
+r1870344 | kmcgrail | 2019-11-24 20:31:12 +0000 (Sun, 24 Nov 2019) | 1 
+line
+ 
+ More polish on the collapsed subtests work
+------------------------------------------------------------------------
+r1870343 | gbechis | 2019-11-24 19:41:30 +0000 (Sun, 24 Nov 2019) | 2 
+lines
+ 
+ fix a warning
+ 
+------------------------------------------------------------------------
+r1870328 | gbechis | 2019-11-24 18:22:17 +0000 (Sun, 24 Nov 2019) | 4 
+lines
+ 
+ Add a new SUBTESTSCOLLAPSED template tag
+ with subtests collapsed similar to what printed
+ in log file
+ 
+------------------------------------------------------------------------
+r1870083 | gbechis | 2019-11-21 12:00:48 +0000 (Thu, 21 Nov 2019) | 2 
+lines
+ 
+ put olevbmacro regression tests into MANIFEST file
+ 
+------------------------------------------------------------------------
+r1870058 | gbechis | 2019-11-20 21:16:01 +0000 (Wed, 20 Nov 2019) | 3 
+lines
+ 
+ prevent a warning from filling logs with packet dumps
+ useful only for debugging purposes
+ 
+------------------------------------------------------------------------
+r1870054 | gbechis | 2019-11-20 18:19:42 +0000 (Wed, 20 Nov 2019) | 2 
+lines
+ 
+ OLEVBMacro plugin regression tests
+ 
+------------------------------------------------------------------------
+r1869872 | gbechis | 2019-11-15 18:21:16 +0000 (Fri, 15 Nov 2019) | 3 
+lines
+ 
+ silence some warnings if Archive::Zip
+ is not installed
+ 
+------------------------------------------------------------------------
+r1869855 | gbechis | 2019-11-15 14:45:11 +0000 (Fri, 15 Nov 2019) | 3 
+lines
+ 
+ explain better that Archive::Zip and IO::String Perl
+ modules are needed for OLEVBMacro plugin
+ 
+------------------------------------------------------------------------
+r1869761 | gbechis | 2019-11-13 17:44:00 +0000 (Wed, 13 Nov 2019) | 3 
+lines
+ 
+ fix SRS uri parser
+ bz #6089
+ 
+------------------------------------------------------------------------
+r1869726 | gbechis | 2019-11-13 08:25:09 +0000 (Wed, 13 Nov 2019) | 2 
+lines
+ 
+ Add another debug message
+ 
+------------------------------------------------------------------------
+r1869721 | hege | 2019-11-13 06:07:03 +0000 (Wed, 13 Nov 2019) | 2 lines
+ 
+ Fix pod warnings (Bug 7773)
+ 
+------------------------------------------------------------------------
+r1869700 | gbechis | 2019-11-12 14:07:29 +0000 (Tue, 12 Nov 2019) | 2 
+lines
+ 
+ explain that olemacro_extended_scan is needed to run 
+check_olemacro_renamed
+ 
+------------------------------------------------------------------------
+r1869683 | gbechis | 2019-11-12 08:47:07 +0000 (Tue, 12 Nov 2019) | 2 
+lines
+ 
+ Add additional debug message
+ 
+------------------------------------------------------------------------
+r1869642 | billcole | 2019-11-11 05:28:07 +0000 (Mon, 11 Nov 2019) | 1 
+line
+ 
+ Spelling
+------------------------------------------------------------------------
+r1869639 | kmcgrail | 2019-11-11 04:09:44 +0000 (Mon, 11 Nov 2019) | 1 
+line
+ 
+ Fixing misspellings noted in bz7772
+------------------------------------------------------------------------
+r1869595 | kmcgrail | 2019-11-09 06:08:55 +0000 (Sat, 09 Nov 2019) | 1 
+line
+ 
+ preparing to release 3.4.3-rc6
+------------------------------------------------------------------------
+r1869333 | gbechis | 2019-11-03 15:13:03 +0000 (Sun, 03 Nov 2019) | 2 
+lines
+ 
+ Rename OLEMacro plugin to OLEVBMacro to be more clear
+ 
+------------------------------------------------------------------------
+r1869331 | gbechis | 2019-11-03 14:59:44 +0000 (Sun, 03 Nov 2019) | 2 
+lines
+ 
+ sync with trunk, check .xltx files as well
+ 
+------------------------------------------------------------------------
+r1869065 | gbechis | 2019-10-28 07:21:12 +0000 (Mon, 28 Oct 2019) | 2 
+lines
+ 
+ Add more info to subjprefix keyword documentation
+ 
+------------------------------------------------------------------------
+r1868828 | kmcgrail | 2019-10-24 01:29:33 +0000 (Thu, 24 Oct 2019) | 1 
+line
+ 
+ preparing to release 3.4.3-rc5
+------------------------------------------------------------------------
+r1868693 | hege | 2019-10-21 10:58:45 +0000 (Mon, 21 Oct 2019) | 2 lines
+ 
+ Remove unused unties
+ 
+------------------------------------------------------------------------
+r1868685 | gbechis | 2019-10-21 09:34:51 +0000 (Mon, 21 Oct 2019) | 16 
+lines
+ 
+ Add a new subjprefix keyword.
+ 
+ This keyword will add a prefix in emails Subject if a rule is matched.
+ To enable this option "rewrite_header Subject" config option must be 
+enabled
+ as well.
+ 
+ The check "if can(Mail::SpamAssassin::Conf::feature_subjprefix)"
+ should be used to silence warnings in previous SpamAssassin
+ versions.
+ 
+ This feature could not work out-of-the box if the glue
+ software that calls SpamAssassin (MimeDefang, Amavisd-new, ...)
+ uses the original email instead of the one produced by SA.
+ Some improvements to those softwares may be needed before enabling
+ this feature.
+ 
+------------------------------------------------------------------------
+r1868631 | gbechis | 2019-10-19 15:33:18 +0000 (Sat, 19 Oct 2019) | 2 
+lines
+ 
+ fix sought header rules generation
+ 
+------------------------------------------------------------------------
+r1868412 | hege | 2019-10-13 19:49:26 +0000 (Sun, 13 Oct 2019) | 2 lines
+ 
+ Add test for check_rbl() negative subtest
+ 
+------------------------------------------------------------------------
+r1867881 | hege | 2019-10-02 10:25:18 +0000 (Wed, 02 Oct 2019) | 2 lines
+ 
+ Add uri test for http://foo/ Firefix like rewrite
+ 
+------------------------------------------------------------------------
+r1867230 | hege | 2019-09-20 14:13:18 +0000 (Fri, 20 Sep 2019) | 2 lines
+ 
+ Small fix for escaped quotes
+ 
+------------------------------------------------------------------------
+r1867225 | hege | 2019-09-20 13:15:30 +0000 (Fri, 20 Sep 2019) | 2 lines
+ 
+ Improve :name :addr parser (Bug 7753)
+ 
+------------------------------------------------------------------------
+r1867159 | gbechis | 2019-09-19 06:29:14 +0000 (Thu, 19 Sep 2019) | 2 
+lines
+ 
+ better ipv6 regexp
+ 
+------------------------------------------------------------------------
+r1867055 | hege | 2019-09-17 12:35:39 +0000 (Tue, 17 Sep 2019) | 2 lines
+ 
+ Use cleaned list for check_hashbl_uris
+ 
+------------------------------------------------------------------------
+r1866389 | hege | 2019-09-04 13:49:07 +0000 (Wed, 04 Sep 2019) | 2 lines
+ 
+ Avoid warning: Use of uninitialized value $dom in pattern match (m//) at 
+.../RegistryBoundaries.pm
+ 
+------------------------------------------------------------------------
+r1866203 | hege | 2019-08-31 11:47:09 +0000 (Sat, 31 Aug 2019) | 2 lines
+ 
+ Fix DUPMIN back to default 10.. duh.
+ 
+------------------------------------------------------------------------
+r1866202 | hege | 2019-08-31 11:43:17 +0000 (Sat, 31 Aug 2019) | 2 lines
+ 
+ Fix loglevel for duplicate logline suppressor
+ 
+------------------------------------------------------------------------
+r1866198 | gbechis | 2019-08-31 09:42:33 +0000 (Sat, 31 Aug 2019) | 2 
+lines
+ 
+ Install v343.pre as well
+ 
+------------------------------------------------------------------------
+r1866181 | kmcgrail | 2019-08-31 04:33:43 +0000 (Sat, 31 Aug 2019) | 1 
+line
+ 
+ preparing to release 3.4.3-rc4
+------------------------------------------------------------------------
+r1866128 | hege | 2019-08-30 07:49:30 +0000 (Fri, 30 Aug 2019) | 2 lines
+ 
+ Bug 7747 - Limit checked mime parts
+ 
+------------------------------------------------------------------------
+r1865616 | hege | 2019-08-21 10:53:07 +0000 (Wed, 21 Aug 2019) | 2 lines
+ 
+ Skip more misparsed uri garbage
+ 
+------------------------------------------------------------------------
+r1865612 | hege | 2019-08-21 09:19:39 +0000 (Wed, 21 Aug 2019) | 2 lines
+ 
+ Improve schemeless uri parser start boundary
+ 
+------------------------------------------------------------------------
+r1865609 | hege | 2019-08-21 08:40:41 +0000 (Wed, 21 Aug 2019) | 2 lines
+ 
+ Make uri parser find longer uris (up to 2k) which are common these days
+ 
+------------------------------------------------------------------------
+r1865409 | hege | 2019-08-19 04:19:58 +0000 (Mon, 19 Aug 2019) | 2 lines
+ 
+ DNS name max length is actually 253 chars. Quote % for uniformity.
+ 
+------------------------------------------------------------------------
+r1865107 | hege | 2019-08-14 11:35:47 +0000 (Wed, 14 Aug 2019) | 2 lines
+ 
+ More uri email parser tweaks
+ 
+------------------------------------------------------------------------
+r1865102 | hege | 2019-08-14 09:37:00 +0000 (Wed, 14 Aug 2019) | 2 lines
+ 
+ Commit all uri parser changes from trunk to 3.4
+ 
+------------------------------------------------------------------------
+r1865095 | hege | 2019-08-14 08:34:58 +0000 (Wed, 14 Aug 2019) | 2 lines
+ 
+ More email uri parser tweaks
+ 
+------------------------------------------------------------------------
+r1865086 | hege | 2019-08-14 05:17:00 +0000 (Wed, 14 Aug 2019) | 2 lines
+ 
+ Update html render docs
+ 
+------------------------------------------------------------------------
+r1865051 | hege | 2019-08-13 17:09:47 +0000 (Tue, 13 Aug 2019) | 2 lines
+ 
+ More uri parser cleanups
+ 
+------------------------------------------------------------------------
+r1865044 | hege | 2019-08-13 13:54:37 +0000 (Tue, 13 Aug 2019) | 2 lines
+ 
+ Remove accidental /g
+ 
+------------------------------------------------------------------------
+r1865043 | hege | 2019-08-13 13:53:12 +0000 (Tue, 13 Aug 2019) | 2 lines
+ 
+ Strip common schemeless skype: email: prefixes from mails
+ 
+------------------------------------------------------------------------
+r1865041 | gbechis | 2019-08-13 13:41:52 +0000 (Tue, 13 Aug 2019) | 2 
+lines
+ 
+ improve debug message
+ 
+------------------------------------------------------------------------
+r1865039 | hege | 2019-08-13 13:15:38 +0000 (Tue, 13 Aug 2019) | 2 lines
+ 
+ Schemeless uri parser improvements
+ 
+------------------------------------------------------------------------
+r1865030 | hege | 2019-08-13 11:58:14 +0000 (Tue, 13 Aug 2019) | 2 lines
+ 
+ Further email parsing and canonicalizing fixes
+ 
+------------------------------------------------------------------------
+r1865025 | hege | 2019-08-13 11:09:53 +0000 (Tue, 13 Aug 2019) | 2 lines
+ 
+ Ignore schemeless emails without valid tld
+ 
+------------------------------------------------------------------------
+r1865018 | hege | 2019-08-13 09:10:33 +0000 (Tue, 13 Aug 2019) | 2 lines
+ 
+ Ignore empty uris from stripped body
+ 
+------------------------------------------------------------------------
+r1865015 | hege | 2019-08-13 08:31:18 +0000 (Tue, 13 Aug 2019) | 2 lines
+ 
+ Skip invalid cid: "emails" in schemeless parser
+ 
+------------------------------------------------------------------------
+r1864941 | hege | 2019-08-12 07:30:28 +0000 (Mon, 12 Aug 2019) | 2 lines
+ 
+ Fix duplicate supressor logic to escape duplicated message properly
+ 
+------------------------------------------------------------------------
+r1864890 | hege | 2019-08-10 16:45:56 +0000 (Sat, 10 Aug 2019) | 2 lines
+ 
+ Let URIDNSBL set URIDOMAINS/URIHOSTS tag even if empty
+ 
+------------------------------------------------------------------------
+r1864886 | hege | 2019-08-10 16:08:10 +0000 (Sat, 10 Aug 2019) | 2 lines
+ 
+ Fail more gracefully if missing Net::CIDR::Lite
+ 
+------------------------------------------------------------------------
+r1864880 | hege | 2019-08-10 15:48:37 +0000 (Sat, 10 Aug 2019) | 2 lines
+ 
+ Don't load OLEMacro, floods unnecessary warnings if Archive::Zip not 
+installed..
+ 
+------------------------------------------------------------------------
+r1864877 | hege | 2019-08-10 15:20:39 +0000 (Sat, 10 Aug 2019) | 2 lines
+ 
+ Bug 7729 - body rules to match body only, not including the Subject (new 
+tflag nosubject)
+ 
+------------------------------------------------------------------------
+r1864875 | hege | 2019-08-10 13:22:28 +0000 (Sat, 10 Aug 2019) | 2 lines
+ 
+ Improve logic in tflags multiple
+ 
+------------------------------------------------------------------------
+r1864870 | hege | 2019-08-10 10:54:28 +0000 (Sat, 10 Aug 2019) | 2 lines
+ 
+ Use fixed string for Message::get_pristine(), save lots of memory
+ 
+------------------------------------------------------------------------
+r1864819 | hege | 2019-08-09 15:43:02 +0000 (Fri, 09 Aug 2019) | 2 lines
+ 
+ Fix some tests, test more non-default modules too
+ 
+------------------------------------------------------------------------
+r1864805 | hege | 2019-08-09 13:57:25 +0000 (Fri, 09 Aug 2019) | 2 lines
+ 
+ More Bug 7740 fixes
+ 
+------------------------------------------------------------------------
+r1864760 | hege | 2019-08-09 05:55:28 +0000 (Fri, 09 Aug 2019) | 2 lines
+ 
+ Fix phishing test
+ 
+------------------------------------------------------------------------
+r1864730 | hege | 2019-08-08 19:34:39 +0000 (Thu, 08 Aug 2019) | 2 lines
+ 
+ Fix html tests from bug 7743 changes
+ 
+------------------------------------------------------------------------
+r1864713 | hege | 2019-08-08 15:14:13 +0000 (Thu, 08 Aug 2019) | 2 lines
+ 
+ Update comments too..
+ 
+------------------------------------------------------------------------
+r1864712 | hege | 2019-08-08 15:12:20 +0000 (Thu, 08 Aug 2019) | 2 lines
+ 
+ Bug 7743 - Remove legacy HTML parsing
+ 
+------------------------------------------------------------------------
+r1864686 | hege | 2019-08-08 08:11:36 +0000 (Thu, 08 Aug 2019) | 2 lines
+ 
+ Bug 7670 - Documentation about rawbody rules should be changed
+ 
+------------------------------------------------------------------------
+r1864685 | hege | 2019-08-08 07:28:25 +0000 (Thu, 08 Aug 2019) | 2 lines
+ 
+ TMPDIR fix from trunk
+ 
+------------------------------------------------------------------------
+r1864621 | hege | 2019-08-07 13:24:20 +0000 (Wed, 07 Aug 2019) | 2 lines
+ 
+ Cleanup body_part_scan_size, split_into_array_of_short_paragraphs, chunk 
+size handling. Rawbody splitting did not even work properly previously, 
+sometimes outputting huge parts. Added new t/body_str.t test for splits.
+ 
+------------------------------------------------------------------------
+r1864595 | hege | 2019-08-07 06:03:44 +0000 (Wed, 07 Aug 2019) | 2 lines
+ 
+ Optimize split_into_array_of_short_paragraphs
+ 
+------------------------------------------------------------------------
+r1864510 | hege | 2019-08-06 11:24:29 +0000 (Tue, 06 Aug 2019) | 2 lines
+ 
+ Sigh, final fix, finish_parsing_end does not have $pms..
+ 
+------------------------------------------------------------------------
+r1864489 | hege | 2019-08-06 10:09:01 +0000 (Tue, 06 Aug 2019) | 2 lines
+ 
+ Fix some dns availability checks
+ 
+------------------------------------------------------------------------
+r1864461 | hege | 2019-08-06 06:44:42 +0000 (Tue, 06 Aug 2019) | 2 lines
+ 
+ Sync FreeMail from trunk
+ 
+------------------------------------------------------------------------
+r1864424 | hege | 2019-08-05 09:26:17 +0000 (Mon, 05 Aug 2019) | 2 lines
+ 
+ Add some unicode dot normalizations to uri_list_canonicalize
+ 
+------------------------------------------------------------------------
+r1864418 | hege | 2019-08-05 08:28:40 +0000 (Mon, 05 Aug 2019) | 2 lines
+ 
+ Set User-Agent for wget/curl/fetch
+ 
+------------------------------------------------------------------------
+r1864417 | hege | 2019-08-05 07:37:08 +0000 (Mon, 05 Aug 2019) | 2 lines
+ 
+ Rollback Bug 6802, was buggy and needs some more throught
+ 
+------------------------------------------------------------------------
+r1864416 | hege | 2019-08-05 06:47:21 +0000 (Mon, 05 Aug 2019) | 2 lines
+ 
+ 5% overall speedup from Check.pm regex //o, add IS_RULENAME constant
+ 
+------------------------------------------------------------------------
+r1864377 | hege | 2019-08-04 11:43:10 +0000 (Sun, 04 Aug 2019) | 2 lines
+ 
+ Better logging of charset decoding warnings, Bug 7520 related
+ 
+------------------------------------------------------------------------
+r1864341 | hege | 2019-08-03 15:08:46 +0000 (Sat, 03 Aug 2019) | 2 lines
+ 
+ Bug 7039 - sa-compile notes inability to write in home dir even though 
+it successfully uses a /tmp dir
+ 
+------------------------------------------------------------------------
+r1864340 | hege | 2019-08-03 14:40:38 +0000 (Sat, 03 Aug 2019) | 2 lines
+ 
+ Fix _URIDOMAINS_ duplicates (Bug 6966)
+ 
+------------------------------------------------------------------------
+r1864337 | hege | 2019-08-03 14:10:07 +0000 (Sat, 03 Aug 2019) | 2 lines
+ 
+ Remove hashbl sha256 support, since DNS can't hand 64 character label, 
+duh..
+ 
+------------------------------------------------------------------------
+r1864336 | hege | 2019-08-03 13:55:00 +0000 (Sat, 03 Aug 2019) | 12 lines
+ 
+ 3.4 & trunk:
+ - new Util::is_fqdn_valid() function to validate hostname (DNS name) 
+format (Bug 7736).  To check if a name contains valid TLD, it's still 
+needed to additionally use RegistryBoundaries::is_domain_valid().
+ - uri_list_canonicalize fixes: fragments, logins, ports (strip :80 
+:443), firefox like canon http://foobar -> http://www.foobar.com (Bug 
+6596)
+ - reduce DNS errors from warn to info
+ 
+ trunk only:
+ - new $pms->add_uri_detail_list function
+ - improve get_uri_detail_list, documentation
+ - new uri_detail_list types: unlinked, schemeless
+ - split_domain, trim_domain, is_domain_valid: new $is_ascii arg skips 
+idn_to_ascii() conversion to save redundant calls
+ - improve get() :host :domain
+ 
+------------------------------------------------------------------------
+r1864328 | hege | 2019-08-03 12:17:37 +0000 (Sat, 03 Aug 2019) | 2 lines
+ 
+ Fix dkim test
+ 
+------------------------------------------------------------------------
+r1864157 | hege | 2019-08-01 14:54:18 +0000 (Thu, 01 Aug 2019) | 2 lines
+ 
+ Some uri parser enhancements/fixes
+ 
+------------------------------------------------------------------------
+r1864152 | hege | 2019-08-01 13:01:43 +0000 (Thu, 01 Aug 2019) | 2 lines
+ 
+ Don't croak on empty selector
+ 
+------------------------------------------------------------------------
+r1864149 | hege | 2019-08-01 12:28:38 +0000 (Thu, 01 Aug 2019) | 2 lines
+ 
+ Bug 5971 - M:SA:Conf::get_rule_value('rbl_evals') tries to coerce array 
+to hash
+ 
+------------------------------------------------------------------------
+r1864140 | hege | 2019-08-01 11:15:10 +0000 (Thu, 01 Aug 2019) | 2 lines
+ 
+ Recommend Redis for Bayes
+ 
+------------------------------------------------------------------------
+r1864132 | hege | 2019-08-01 08:33:48 +0000 (Thu, 01 Aug 2019) | 2 lines
+ 
+ Bug 6030 - whitelist_bounce_relays documentation enhancement
+ 
+------------------------------------------------------------------------
+r1864120 | gbechis | 2019-08-01 07:45:09 +0000 (Thu, 01 Aug 2019) | 2 
+lines
+ 
+ fix sought body rules generation
+ 
+------------------------------------------------------------------------
+r1864044 | hege | 2019-07-31 11:11:02 +0000 (Wed, 31 Jul 2019) | 2 lines
+ 
+ Fix ignoring @@ in mailto
+ 
+------------------------------------------------------------------------
+r1864043 | hege | 2019-07-31 10:43:49 +0000 (Wed, 31 Jul 2019) | 2 lines
+ 
+ uri_to_domain - ignore cid:, fix mailto: parameter handling
+ 
+------------------------------------------------------------------------
+r1864032 | hege | 2019-07-31 05:04:11 +0000 (Wed, 31 Jul 2019) | 2 lines
+ 
+ Bug 6233 - What values are valid/recommended for SYMBOLIC_TEST_NAME?
+ 
+------------------------------------------------------------------------
+r1864015 | hege | 2019-07-30 17:46:25 +0000 (Tue, 30 Jul 2019) | 2 lines
+ 
+ Bug 5619 - auto-generated spamassassin(1) man page repetition
+ 
+------------------------------------------------------------------------
+r1864014 | hege | 2019-07-30 17:15:34 +0000 (Tue, 30 Jul 2019) | 2 lines
+ 
+ Bug 7383 - auto_whitelist_path from config not used
+ 
+------------------------------------------------------------------------
+r1863985 | hege | 2019-07-30 10:10:16 +0000 (Tue, 30 Jul 2019) | 2 lines
+ 
+ Fix timers when running spamassassin against a folder of files
+ 
+------------------------------------------------------------------------
+r1863981 | hege | 2019-07-30 07:50:22 +0000 (Tue, 30 Jul 2019) | 2 lines
+ 
+ Bug 5620 - missing item and raw HTML on man pages
+ 
+------------------------------------------------------------------------
+r1863980 | hege | 2019-07-30 07:28:04 +0000 (Tue, 30 Jul 2019) | 2 lines
+ 
+ Update TextCat documentation a bit
+ 
+------------------------------------------------------------------------
+r1863788 | hege | 2019-07-26 09:20:57 +0000 (Fri, 26 Jul 2019) | 2 lines
+ 
+ Bug 6802 - force regex ascii semantics
+ 
+------------------------------------------------------------------------
+r1863776 | hege | 2019-07-26 07:27:39 +0000 (Fri, 26 Jul 2019) | 2 lines
+ 
+ Bug 7741 - Support City database now properly
+ 
+------------------------------------------------------------------------
+r1863742 | hege | 2019-07-25 15:56:36 +0000 (Thu, 25 Jul 2019) | 2 lines
+ 
+ Revert Bug 7741
+ 
+------------------------------------------------------------------------
+r1863531 | hege | 2019-07-21 17:12:07 +0000 (Sun, 21 Jul 2019) | 2 lines
+ 
+ Check for GeoIP2 City.mmdb also
+ 
+------------------------------------------------------------------------
+r1863527 | hege | 2019-07-21 15:49:38 +0000 (Sun, 21 Jul 2019) | 2 lines
+ 
+ Simplify settings tags a bit
+ 
+------------------------------------------------------------------------
+r1863526 | hege | 2019-07-21 15:08:35 +0000 (Sun, 21 Jul 2019) | 2 lines
+ 
+ Bug 7741 - Invalid database type 0 error when enabling URILocalBL
+ 
+------------------------------------------------------------------------
+r1863525 | hege | 2019-07-21 13:53:39 +0000 (Sun, 21 Jul 2019) | 2 lines
+ 
+ Missed on regex fix, also clarify documentation about case-insensitivity
+ 
+------------------------------------------------------------------------
+r1863524 | hege | 2019-07-21 13:48:27 +0000 (Sun, 21 Jul 2019) | 2 lines
+ 
+ Bug 7740 - Cannot set OLEMacro regex options, and other small regex 
+cleanups
+ 
+------------------------------------------------------------------------
+r1862889 | hege | 2019-07-10 17:10:34 +0000 (Wed, 10 Jul 2019) | 2 lines
+ 
+ HTML_FONT_FACE_BAD fixes from Bug 5956, 7312
+ 
+------------------------------------------------------------------------
+r1862748 | hege | 2019-07-08 13:32:37 +0000 (Mon, 08 Jul 2019) | 2 lines
+ 
+ Add Bug 7725 fix to AskDNS too
+ 
+------------------------------------------------------------------------
+r1862718 | hege | 2019-07-08 07:30:39 +0000 (Mon, 08 Jul 2019) | 2 lines
+ 
+ Add some has_* features just in case
+ 
+------------------------------------------------------------------------
+r1862690 | hege | 2019-07-07 11:25:00 +0000 (Sun, 07 Jul 2019) | 2 lines
+ 
+ Add HashBL changes
+ 
+------------------------------------------------------------------------
+r1862689 | hege | 2019-07-07 11:12:36 +0000 (Sun, 07 Jul 2019) | 2 lines
+ 
+ Clarify documentation
+ 
+------------------------------------------------------------------------
+r1862686 | hege | 2019-07-07 10:53:50 +0000 (Sun, 07 Jul 2019) | 2 lines
+ 
+ Add missing register_async_rule_finish
+ 
+------------------------------------------------------------------------
+r1862685 | hege | 2019-07-07 10:50:05 +0000 (Sun, 07 Jul 2019) | 2 lines
+ 
+ Sync with trunk version (check_hashbl_uris, hashbl_ignore), use 
+compile_regexp, fix max=x truncating, logging cleanup
+ 
+------------------------------------------------------------------------
+r1862683 | hege | 2019-07-07 09:44:35 +0000 (Sun, 07 Jul 2019) | 2 lines
+ 
+ Few more parameter whitespace fixes
+ 
+------------------------------------------------------------------------
+r1862682 | hege | 2019-07-07 09:34:49 +0000 (Sun, 07 Jul 2019) | 2 lines
+ 
+ Few more parameter whitespace fixes
+ 
+------------------------------------------------------------------------
+r1862681 | hege | 2019-07-07 09:31:49 +0000 (Sun, 07 Jul 2019) | 2 lines
+ 
+ Tighten up addrlist parameter checks
+ 
+------------------------------------------------------------------------
+r1862678 | hege | 2019-07-07 08:13:38 +0000 (Sun, 07 Jul 2019) | 2 lines
+ 
+ Fix regex case sensitive
+ 
+------------------------------------------------------------------------
+r1862625 | gbechis | 2019-07-05 17:40:10 +0000 (Fri, 05 Jul 2019) | 2 
+lines
+ 
+ sync dependencies check with reality
+ 
+------------------------------------------------------------------------
+r1862624 | gbechis | 2019-07-05 17:26:47 +0000 (Fri, 05 Jul 2019) | 3 
+lines
+ 
+ Add OLEMacro plugin to 3.4.3 and rename rules/v*.pre
+ accordingly
+ 
+------------------------------------------------------------------------
+r1862622 | hege | 2019-07-05 16:33:55 +0000 (Fri, 05 Jul 2019) | 2 lines
+ 
+ Small X-Relay-Countries-Auth documentation add
+ 
+------------------------------------------------------------------------
+r1862620 | hege | 2019-07-05 15:08:59 +0000 (Fri, 05 Jul 2019) | 2 lines
+ 
+ More Bug 7731 tweaks, rename MUA to X-Relay-Countries-Auth
+ 
+------------------------------------------------------------------------
+r1862608 | hege | 2019-07-05 12:07:13 +0000 (Fri, 05 Jul 2019) | 2 lines
+ 
+ Fix handling when geoip not loaded
+ 
+------------------------------------------------------------------------
+r1862607 | hege | 2019-07-05 12:00:21 +0000 (Fri, 05 Jul 2019) | 2 lines
+ 
+ Bug 7731 - Add external and msa metadata to RelayCountry
+ 
+------------------------------------------------------------------------
+r1862111 | hege | 2019-06-26 08:49:22 +0000 (Wed, 26 Jun 2019) | 2 lines
+ 
+ Bug 5639 - document multiple header matching better
+ 
+------------------------------------------------------------------------
+r1862107 | hege | 2019-06-26 08:05:59 +0000 (Wed, 26 Jun 2019) | 2 lines
+ 
+ Remove use bytes from mass-check (Bug 7613)
+ 
+------------------------------------------------------------------------
+r1862103 | hege | 2019-06-26 06:53:33 +0000 (Wed, 26 Jun 2019) | 2 lines
+ 
+ Fix previous commit logic..
+ 
+------------------------------------------------------------------------
+r1862102 | hege | 2019-06-26 06:49:51 +0000 (Wed, 26 Jun 2019) | 2 lines
+ 
+ Handle SHA signatures a bit more carefully
+ 
+------------------------------------------------------------------------
+r1862101 | gbechis | 2019-06-26 06:27:31 +0000 (Wed, 26 Jun 2019) | 3 
+lines
+ 
+ skip regression test if sudo(8) is not installed
+ fix bz #6665
+ 
+------------------------------------------------------------------------
+r1862057 | hege | 2019-06-25 12:51:45 +0000 (Tue, 25 Jun 2019) | 2 lines
+ 
+ Also parse image/jpg (commonly used even if not standard)
+ 
+------------------------------------------------------------------------
+r1862009 | hege | 2019-06-24 14:46:44 +0000 (Mon, 24 Jun 2019) | 2 lines
+ 
+ Bug 6582: Implement body_part_scan_size / rawbody_part_scan_size limits
+ 
+------------------------------------------------------------------------
+r1861977 | hege | 2019-06-24 06:32:24 +0000 (Mon, 24 Jun 2019) | 2 lines
+ 
+ Fix 20_saw_ampersand.t
+ 
+------------------------------------------------------------------------
+r1861976 | hege | 2019-06-24 06:24:57 +0000 (Mon, 24 Jun 2019) | 2 lines
+ 
+ Fix 20_saw_ampersand.t
+ 
+------------------------------------------------------------------------
+r1861961 | kmcgrail | 2019-06-24 00:34:10 +0000 (Mon, 24 Jun 2019) | 1 
+line
+ 
+ preparing to release 3.4.3-rc3
+------------------------------------------------------------------------
+r1861944 | hege | 2019-06-23 18:24:45 +0000 (Sun, 23 Jun 2019) | 2 lines
+ 
+ Update skipped files
+ 
+------------------------------------------------------------------------
+r1861942 | hege | 2019-06-23 16:20:48 +0000 (Sun, 23 Jun 2019) | 2 lines
+ 
+ Remove unneeded t/mkrules*.t from 3.4
+ 
+------------------------------------------------------------------------
+r1861937 | hege | 2019-06-23 14:37:54 +0000 (Sun, 23 Jun 2019) | 2 lines
+ 
+ Some taint fixes
+ 
+------------------------------------------------------------------------
+r1861932 | hege | 2019-06-23 13:51:31 +0000 (Sun, 23 Jun 2019) | 2 lines
+ 
+ Apparently make tardist doesn't always output "Created xyz.tar.gz", try 
+to find latest tarfile with ls -tr instead
+ 
+------------------------------------------------------------------------
+r1861926 | hege | 2019-06-23 13:10:00 +0000 (Sun, 23 Jun 2019) | 2 lines
+ 
+ Fix URILocalBL requiring Net::CIDR::Lite
+ 
+------------------------------------------------------------------------
+r1861909 | hege | 2019-06-23 09:47:18 +0000 (Sun, 23 Jun 2019) | 2 lines
+ 
+ Remove exponential sleeps, they don't make much sense, basically 
+check_mirror_af is the one that croaks if our network is down. There's 
+already bunch of retries also on external wget/curl commands. Just sleep 
+few seconds between tries, should be enough.
+ 
+------------------------------------------------------------------------
+r1861908 | hege | 2019-06-23 09:26:37 +0000 (Sun, 23 Jun 2019) | 2 lines
+ 
+ Few trivial ipv4/ipv6 fixes, handle forcing better
+ 
+------------------------------------------------------------------------
+r1861891 | hege | 2019-06-22 18:00:35 +0000 (Sat, 22 Jun 2019) | 2 lines
+ 
+ Skip left brace regexp tests which depend on Perl version
+ 
+------------------------------------------------------------------------
+r1861889 | hege | 2019-06-22 17:53:31 +0000 (Sat, 22 Jun 2019) | 2 lines
+ 
+ Trivial change, don't fail lint on description for non-existent rule 
+(similar to bug 5514)
+ 
+------------------------------------------------------------------------
+r1861877 | hege | 2019-06-22 16:00:42 +0000 (Sat, 22 Jun 2019) | 2 lines
+ 
+ Bug 7726 - Enable taint for all tests
+ 
+------------------------------------------------------------------------
+r1861762 | hege | 2019-06-21 08:35:21 +0000 (Fri, 21 Jun 2019) | 2 lines
+ 
+ Bug 7725 - Perl taint bug with URIDNSBL netmask calculations
+ 
+------------------------------------------------------------------------
+r1861758 | hege | 2019-06-21 08:23:02 +0000 (Fri, 21 Jun 2019) | 2 lines
+ 
+ Some trivial fixes, always latest tardist file, reset sa-compile cache
+ 
+------------------------------------------------------------------------
+r1861744 | hege | 2019-06-21 06:26:00 +0000 (Fri, 21 Jun 2019) | 2 lines
+ 
+ Fix t/all_modules.t
+ 
+------------------------------------------------------------------------
+r1861634 | hege | 2019-06-19 15:43:30 +0000 (Wed, 19 Jun 2019) | 2 lines
+ 
+ Bug 7723 - FromNameSpoof warnings with missing To-header
+ 
+------------------------------------------------------------------------
+r1861633 | hege | 2019-06-19 15:41:21 +0000 (Wed, 19 Jun 2019) | 2 lines
+ 
+ Bug 7724 - MIMEEval state not checked properly
+ 
+------------------------------------------------------------------------
+r1861513 | hege | 2019-06-17 14:28:24 +0000 (Mon, 17 Jun 2019) | 2 lines
+ 
+ Add --reallyallowplugins in upgrade notes
+ 
+------------------------------------------------------------------------
+r1861431 | hege | 2019-06-15 19:34:46 +0000 (Sat, 15 Jun 2019) | 2 lines
+ 
+ Tighten up --allowplugins allowed settings
+ 
+------------------------------------------------------------------------
+r1861429 | hege | 2019-06-15 19:13:30 +0000 (Sat, 15 Jun 2019) | 2 lines
+ 
+ Print warning about --allowplugins usage, only allow it with 
+--reallyallowplugins
+ 
+------------------------------------------------------------------------
+r1861424 | hege | 2019-06-15 18:42:17 +0000 (Sat, 15 Jun 2019) | 2 lines
+ 
+ Bug 6944 - t/dcc.t fails to check if dcc is installed or not before 
+testing
+ 
+------------------------------------------------------------------------
+r1861423 | hege | 2019-06-15 18:34:48 +0000 (Sat, 15 Jun 2019) | 2 lines
+ 
+ Retry even if sha/asc download fails, sleep a bit between mirror retries
+ 
+------------------------------------------------------------------------
+r1861404 | hege | 2019-06-15 15:29:54 +0000 (Sat, 15 Jun 2019) | 2 lines
+ 
+ Skip downloading sha256 file needlessly if already having sha512
+ 
+------------------------------------------------------------------------
+r1861402 | hege | 2019-06-15 14:52:03 +0000 (Sat, 15 Jun 2019) | 2 lines
+ 
+ Bug 7089 - add domains_only function to DNSEval.pm
+ 
+------------------------------------------------------------------------
+r1861377 | hege | 2019-06-15 12:01:00 +0000 (Sat, 15 Jun 2019) | 2 lines
+ 
+ Bug 5258 - implement rules_matching() meta expression
+ 
+------------------------------------------------------------------------
+r1861375 | hege | 2019-06-15 11:55:02 +0000 (Sat, 15 Jun 2019) | 2 lines
+ 
+ Add t/add_modules.t
+ 
+------------------------------------------------------------------------
+r1861357 | hege | 2019-06-14 16:28:44 +0000 (Fri, 14 Jun 2019) | 2 lines
+ 
+ Add Finnish VS: reply prefix
+ 
+------------------------------------------------------------------------
+r1861317 | gbechis | 2019-06-14 07:57:14 +0000 (Fri, 14 Jun 2019) | 3 
+lines
+ 
+ Revert part of commit r1831073 that sneak in by fault
+ fixes #7657, thanks to hege@ for debugging this
+ 
+------------------------------------------------------------------------
+r1861265 | hege | 2019-06-13 15:03:40 +0000 (Thu, 13 Jun 2019) | 2 lines
+ 
+ Bug 7374 - Some e-mails create "Complex regular subexpression recursion 
+limit (32766) exceeded" warning
+ 
+------------------------------------------------------------------------
+r1861259 | hege | 2019-06-13 13:57:59 +0000 (Thu, 13 Jun 2019) | 2 lines
+ 
+ Bug 7681 - Use standard SEE ALSOs
+ 
+------------------------------------------------------------------------
+r1861237 | hege | 2019-06-13 08:05:08 +0000 (Thu, 13 Jun 2019) | 2 lines
+ 
+ Fix harmless hash assignment warnings in relaycountry tests
+ 
+------------------------------------------------------------------------
+r1861236 | hege | 2019-06-13 07:59:37 +0000 (Thu, 13 Jun 2019) | 2 lines
+ 
+ Fix harmless warning for test if Geo::IP not available
+ 
+------------------------------------------------------------------------
+r1861234 | hege | 2019-06-13 07:53:26 +0000 (Thu, 13 Jun 2019) | 2 lines
+ 
+ Fix qr_to_string for Perl <5.14
+ 
+------------------------------------------------------------------------
+r1861222 | hege | 2019-06-13 06:22:31 +0000 (Thu, 13 Jun 2019) | 2 lines
+ 
+ Remove t/spamc_H.t from manifest since Bug 7046 is not fixed (and 
+probably wont for 3.4 branch)
+ 
+------------------------------------------------------------------------
+r1861221 | hege | 2019-06-13 06:19:19 +0000 (Thu, 13 Jun 2019) | 2 lines
+ 
+ Fix possible t/dnsbl.t failure
+ 
+------------------------------------------------------------------------
+r1861220 | hege | 2019-06-13 06:10:14 +0000 (Thu, 13 Jun 2019) | 2 lines
+ 
+ Define DKIM_INVALID for tests
+ 
+------------------------------------------------------------------------
+r1861219 | hege | 2019-06-13 06:09:44 +0000 (Thu, 13 Jun 2019) | 2 lines
+ 
+ Add t/all_modules.t to manifest
+ 
+------------------------------------------------------------------------
+r1861214 | kmcgrail | 2019-06-13 02:49:23 +0000 (Thu, 13 Jun 2019) | 1 
+line
+ 
+ Preparing to release 3.4.3
+------------------------------------------------------------------------
+r1861181 | hege | 2019-06-12 18:33:01 +0000 (Wed, 12 Jun 2019) | 2 lines
+ 
+ Fix 60_perlcritic.t warnings
+ 
+------------------------------------------------------------------------
+r1861142 | hege | 2019-06-12 15:06:34 +0000 (Wed, 12 Jun 2019) | 2 lines
+ 
+ Fix makedist, no external rules required
+ 
+------------------------------------------------------------------------
+r1861141 | hege | 2019-06-12 15:00:18 +0000 (Wed, 12 Jun 2019) | 2 lines
+ 
+ Define rules internally so make disttest also works without external 
+rules
+ 
+------------------------------------------------------------------------
+r1861131 | kmcgrail | 2019-06-12 13:51:47 +0000 (Wed, 12 Jun 2019) | 1 
+line
+ 
+ Preparing to release 3.4.3
+------------------------------------------------------------------------
+r1860921 | kmcgrail | 2019-06-10 01:27:42 +0000 (Mon, 10 Jun 2019) | 1 
+line
+ 
+ updating razor2 spam test file
+------------------------------------------------------------------------
+r1860903 | hege | 2019-06-09 13:13:59 +0000 (Sun, 09 Jun 2019) | 2 lines
+ 
+ Bug 7037 - RelayCountry is leaking file descriptors
+ 
+------------------------------------------------------------------------
+r1860896 | hege | 2019-06-09 11:42:11 +0000 (Sun, 09 Jun 2019) | 2 lines
+ 
+ Bug 7689 - reduce lint time from quadratic to linear
+ 
+------------------------------------------------------------------------
+r1860891 | hege | 2019-06-09 10:16:29 +0000 (Sun, 09 Jun 2019) | 2 lines
+ 
+ Bug 7658 - Pyzor error: Use of uninitialized value $response[0] in 
+pattern match (m//)
+ 
+------------------------------------------------------------------------
+r1860889 | hege | 2019-06-09 09:54:05 +0000 (Sun, 09 Jun 2019) | 2 lines
+ 
+ New option --httputil to force used download utility
+ 
+------------------------------------------------------------------------
+r1860877 | hege | 2019-06-09 08:27:37 +0000 (Sun, 09 Jun 2019) | 2 lines
+ 
+ Clarify --allowplugins dangerousness
+ 
+------------------------------------------------------------------------
+r1860874 | hege | 2019-06-09 08:09:44 +0000 (Sun, 09 Jun 2019) | 2 lines
+ 
+ Bug 7703 - sa-update aborts unnecessarily on IPv6-only hosts with valid 
+proxy
+ 
+------------------------------------------------------------------------
+r1860873 | hege | 2019-06-09 08:05:38 +0000 (Sun, 09 Jun 2019) | 2 lines
+ 
+ Fix unuinitialized errors when no subrules hit
+ 
+------------------------------------------------------------------------
+r1860806 | hege | 2019-06-08 06:59:21 +0000 (Sat, 08 Jun 2019) | 2 lines
+ 
+ Commit log suppressor from trunk
+ 
+------------------------------------------------------------------------
+r1860766 | kmcgrail | 2019-06-07 15:09:53 +0000 (Fri, 07 Jun 2019) | 1 
+line
+ 
+ Improving Debug output for subtest rule hits
+------------------------------------------------------------------------
+r1859366 | gbechis | 2019-05-16 10:57:45 +0000 (Thu, 16 May 2019) | 2 
+lines
+ 
+ remove last dot in hostname if present
+ 
+------------------------------------------------------------------------
+r1859210 | gbechis | 2019-05-14 07:11:22 +0000 (Tue, 14 May 2019) | 2 
+lines
+ 
+ fix regexp
+ 
+------------------------------------------------------------------------
+r1859129 | kmcgrail | 2019-05-12 05:27:31 +0000 (Sun, 12 May 2019) | 1 
+line
+ 
+ fixed some whitespace issues thanks to Kevin Golding
+------------------------------------------------------------------------
+r1859116 | hege | 2019-05-11 15:01:08 +0000 (Sat, 11 May 2019) | 2 lines
+ 
+ Fix 3.4 async semantics
+ 
+------------------------------------------------------------------------
+r1859114 | kmcgrail | 2019-05-11 13:24:27 +0000 (Sat, 11 May 2019) | 1 
+line
+ 
+ Fixing MANIFEST files
+------------------------------------------------------------------------
+r1858971 | gbechis | 2019-05-09 07:40:13 +0000 (Thu, 09 May 2019) | 2 
+lines
+ 
+ info(...) is not defined, use the proper version
+ 
+------------------------------------------------------------------------
+r1858690 | gbechis | 2019-05-05 14:13:19 +0000 (Sun, 05 May 2019) | 2 
+lines
+ 
+ warn about "please rerun with debug enabled" only if debug is not enabled
+ 
+------------------------------------------------------------------------
+r1858681 | gbechis | 2019-05-05 12:29:04 +0000 (Sun, 05 May 2019) | 2 
+lines
+ 
+ silence a warning in a corner-case code path
+ 
+------------------------------------------------------------------------
+r1858680 | gbechis | 2019-05-05 12:04:24 +0000 (Sun, 05 May 2019) | 3 
+lines
+ 
+ check also urls that are only on plain/text part
+ fix #bz 7086
+ 
+------------------------------------------------------------------------
+r1858605 | gbechis | 2019-05-04 15:45:34 +0000 (Sat, 04 May 2019) | 2 
+lines
+ 
+ Add more checks to check_rbl_rcvd
+ 
+------------------------------------------------------------------------
+r1857623 | gbechis | 2019-04-16 06:30:43 +0000 (Tue, 16 Apr 2019) | 2 
+lines
+ 
+ Add more improvements recently developed
+ 
+------------------------------------------------------------------------
+r1857557 | hege | 2019-04-15 10:16:13 +0000 (Mon, 15 Apr 2019) | 2 lines
+ 
+ Don't add X-ASN-Route metadata, it's just duplicate Bayes data for X-ASN
+ 
+------------------------------------------------------------------------
+r1857549 | hege | 2019-04-15 06:45:15 +0000 (Mon, 15 Apr 2019) | 2 lines
+ 
+ Bug 7211 - Support IPv6 ASN lookups with asn_lookup_ipv6
+ 
+------------------------------------------------------------------------
+r1857048 | gbechis | 2019-04-06 07:46:52 +0000 (Sat, 06 Apr 2019) | 2 
+lines
+ 
+ check authority values in dns answer
+ 
+------------------------------------------------------------------------
+r1856933 | gbechis | 2019-04-04 13:34:49 +0000 (Thu, 04 Apr 2019) | 2 
+lines
+ 
+ convert check_rbl_ns_from to async lookups
+ 
+------------------------------------------------------------------------
+r1856896 | gbechis | 2019-04-03 18:27:49 +0000 (Wed, 03 Apr 2019) | 2 
+lines
+ 
+ copy check_hashbl_bodyre from trunk (r1848553)
+ 
+------------------------------------------------------------------------
+r1856894 | gbechis | 2019-04-03 18:18:17 +0000 (Wed, 03 Apr 2019) | 4 
+lines
+ 
+ Add check_hashbl_emails from trunk
+ Add the possibility to specify an acl to be able
+ to check only some domains against an hashbl rbl
+ 
+------------------------------------------------------------------------
+r1856892 | gbechis | 2019-04-03 17:57:12 +0000 (Wed, 03 Apr 2019) | 2 
+lines
+ 
+ enable check_rbl_rcvd
+ 
+------------------------------------------------------------------------
+r1856890 | gbechis | 2019-04-03 17:32:37 +0000 (Wed, 03 Apr 2019) | 3 
+lines
+ 
+ Add check_rbl_rcvd
+ to check all received headers domains or ip addresses against a specific 
+rbl.
+ 
+------------------------------------------------------------------------
+r1856888 | gbechis | 2019-04-03 17:27:06 +0000 (Wed, 03 Apr 2019) | 4 
+lines
+ 
+ Add check_rbl_headers to check specific headers in rbl
+ Headers to be checked can be specified for all rbl
+ or for a specific rbl
+ 
+------------------------------------------------------------------------
+r1856885 | gbechis | 2019-04-03 17:12:10 +0000 (Wed, 03 Apr 2019) | 3 
+lines
+ 
+ add check_rbl_ns_from
+ This checks in a rbl the dns server of the from addrs domain name.
+ 
+------------------------------------------------------------------------
+r1856026 | hege | 2019-03-22 05:02:57 +0000 (Fri, 22 Mar 2019) | 2 lines
+ 
+ fix check_rbl_from_host from bug 7024
+ 
+------------------------------------------------------------------------
+r1854814 | gbechis | 2019-03-05 07:29:05 +0000 (Tue, 05 Mar 2019) | 2 
+lines
+ 
+ Net::CIDR::Lite is needed to run urilocalbl code
+ 
+------------------------------------------------------------------------
+r1854666 | hege | 2019-03-02 19:27:07 +0000 (Sat, 02 Mar 2019) | 2 lines
+ 
+ Fix long string header wrapping (bug 7672)
+ 
+------------------------------------------------------------------------
+r1854476 | gbechis | 2019-02-27 18:07:28 +0000 (Wed, 27 Feb 2019) | 3 
+lines
+ 
+ Switch to https and fix some 404 errors
+ bz #7652
+ 
+------------------------------------------------------------------------
+r1854354 | gbechis | 2019-02-26 07:39:34 +0000 (Tue, 26 Feb 2019) | 3 
+lines
+ 
+ fix make_install regression test on *BSD,
+ still passes on Linux
+ 
+------------------------------------------------------------------------
+r1854347 | billcole | 2019-02-26 00:13:11 +0000 (Tue, 26 Feb 2019) | 2 
+lines
+ 
+ Fixing bug 7302 without causing bug 7692
+ 
+------------------------------------------------------------------------
+r1854341 | gbechis | 2019-02-25 22:26:38 +0000 (Mon, 25 Feb 2019) | 2 
+lines
+ 
+ fix regression test
+ 
+------------------------------------------------------------------------
+r1853301 | gbechis | 2019-02-10 08:54:17 +0000 (Sun, 10 Feb 2019) | 2 
+lines
+ 
+ Phishing.pm regression tests
+ 
+------------------------------------------------------------------------
+r1852885 | gbechis | 2019-02-04 09:55:45 +0000 (Mon, 04 Feb 2019) | 3 
+lines
+ 
+ do not try to use Geo::IP constants if GeoIP2 is present
+ fix #7687
+ 
+------------------------------------------------------------------------
+r1852805 | gbechis | 2019-02-02 23:42:59 +0000 (Sat, 02 Feb 2019) | 2 
+lines
+ 
+ fix msgcount type for txrep in Postgresql sql file
+ 
+------------------------------------------------------------------------
+r1851889 | gbechis | 2019-01-23 07:48:46 +0000 (Wed, 23 Jan 2019) | 2 
+lines
+ 
+ more speed improvements
+ 
+------------------------------------------------------------------------
+r1851418 | gbechis | 2019-01-16 07:41:34 +0000 (Wed, 16 Jan 2019) | 3 
+lines
+ 
+ Fix pod errors
+ bz #7682
+ 
+------------------------------------------------------------------------
+r1851367 | billcole | 2019-01-15 14:32:48 +0000 (Tue, 15 Jan 2019) | 1 
+line
+ 
+ Fixing command-line example formatting. Bug #7679 
+------------------------------------------------------------------------
+r1851021 | hege | 2019-01-11 08:52:30 +0000 (Fri, 11 Jan 2019) | 2 lines
+ 
+ Fix RDNS_NONE when rdns=[1.2.3.4] (f.e. amavisd-milter)
+ 
+------------------------------------------------------------------------
+r1851018 | gbechis | 2019-01-11 08:15:08 +0000 (Fri, 11 Jan 2019) | 2 
+lines
+ 
+ Some speed improvements
+ 
+------------------------------------------------------------------------
+r1849822 | billcole | 2018-12-27 23:46:24 +0000 (Thu, 27 Dec 2018) | 1 
+line
+ 
+ correcting URLs to https
+------------------------------------------------------------------------
+r1849747 | gbechis | 2018-12-26 09:49:30 +0000 (Wed, 26 Dec 2018) | 3 
+lines
+ 
+ As per Shevek's srs paper, srs scheme should be case insensitive
+ bz #7673
+ 
+------------------------------------------------------------------------
+r1849441 | billcole | 2018-12-20 21:43:37 +0000 (Thu, 20 Dec 2018) | 1 
+line
+ 
+ Failed lint should fail for real.
+------------------------------------------------------------------------
+r1848970 | kmcgrail | 2018-12-14 22:22:49 +0000 (Fri, 14 Dec 2018) | 1 
+line
+ 
+ Optimize extract of body rules during sa-compile - Bug 7665
+------------------------------------------------------------------------
+r1848969 | kmcgrail | 2018-12-14 21:05:01 +0000 (Fri, 14 Dec 2018) | 1 
+line
+ 
+ Work on improving evaluation rules and preparing for 3.4.3
+------------------------------------------------------------------------
+r1848827 | gbechis | 2018-12-13 07:44:12 +0000 (Thu, 13 Dec 2018) | 3 
+lines
+ 
+ Add sqlite database definitions for txrep
+ fix bz #7668
+ 
+------------------------------------------------------------------------
+r1848550 | hege | 2018-12-10 06:03:10 +0000 (Mon, 10 Dec 2018) | 2 lines
+ 
+ Fix RB warnings
+ 
+------------------------------------------------------------------------
+r1848549 | hege | 2018-12-10 05:32:41 +0000 (Mon, 10 Dec 2018) | 2 lines
+ 
+ Mention RegistryBoundaries 20_aux_tlds.cf fix (commit 1845096)
+ 
+------------------------------------------------------------------------
+r1848548 | hege | 2018-12-10 05:22:27 +0000 (Mon, 10 Dec 2018) | 2 lines
+ 
+ Fix hash warns
+ 
+------------------------------------------------------------------------
+r1847473 | hege | 2018-11-26 14:23:41 +0000 (Mon, 26 Nov 2018) | 2 lines
+ 
+ Document ALL-* pseudo-headers
+ 
+------------------------------------------------------------------------
+r1846805 | hege | 2018-11-17 14:40:10 +0000 (Sat, 17 Nov 2018) | 2 lines
+ 
+ Fix Windows-1252 autodetection with normalize_charset (Bug 7656)
+ 
+------------------------------------------------------------------------
+r1846293 | hege | 2018-11-10 10:37:56 +0000 (Sat, 10 Nov 2018) | 2 lines
+ 
+ Bug 7655 - '/etc/mail/spamassassin/sa-update-keys/': No such file or 
+directory
+ 
+------------------------------------------------------------------------
+r1845932 | hege | 2018-11-06 16:08:20 +0000 (Tue, 06 Nov 2018) | 2 lines
+ 
+ Mention parse_dkim_uris in URIDNSBL docs too
+ 
+------------------------------------------------------------------------
+r1845736 | hege | 2018-11-04 13:36:22 +0000 (Sun, 04 Nov 2018) | 2 lines
+ 
+ Skip duplicate lookups
+ 
+------------------------------------------------------------------------
+r1845723 | hege | 2018-11-04 11:16:11 +0000 (Sun, 04 Nov 2018) | 2 lines
+ 
+ Bug 7242 - URIBL_SBL and URIBL_SBL_A doing each other's lookups
+ 
+------------------------------------------------------------------------
+r1845197 | hege | 2018-10-30 06:26:56 +0000 (Tue, 30 Oct 2018) | 2 lines
+ 
+ Small re fix, don't warn with sa-update lint
+ 
+------------------------------------------------------------------------
+r1845107 | hege | 2018-10-29 12:03:00 +0000 (Mon, 29 Oct 2018) | 2 lines
+ 
+ Fix RB tests and case-i
+ 
+------------------------------------------------------------------------
+r1845096 | hege | 2018-10-29 10:29:15 +0000 (Mon, 29 Oct 2018) | 2 lines
+ 
+ Make RegistryBoundaries actually use 20_aux_tlds.cf, initialize it only 
+after configuration is parsed. Fix plugins to handle valid_tlds_re at 
+finish_parsing_end. Remove old hardcoded list, only sa-update is now 
+supported.
+ 
+------------------------------------------------------------------------
+r1845067 | hege | 2018-10-28 22:16:50 +0000 (Sun, 28 Oct 2018) | 2 lines
+ 
+ Remove unused Data::Dumper
+ 
+------------------------------------------------------------------------
+r1844916 | hege | 2018-10-26 16:55:46 +0000 (Fri, 26 Oct 2018) | 2 lines
+ 
+ fix dbg facilities
+ 
+------------------------------------------------------------------------
+r1844901 | hege | 2018-10-26 12:35:00 +0000 (Fri, 26 Oct 2018) | 2 lines
+ 
+ Duh, it's "dns_server"
+ 
+------------------------------------------------------------------------
+r1844900 | hege | 2018-10-26 12:33:14 +0000 (Fri, 26 Oct 2018) | 2 lines
+ 
+ Ignore dns_servers in sa-update files, paranoid check
+ 
+------------------------------------------------------------------------
+r1844813 | hege | 2018-10-25 08:32:57 +0000 (Thu, 25 Oct 2018) | 2 lines
+ 
+ Call test_log instead of got_hit description suffix hackery
+ 
+------------------------------------------------------------------------
+r1844811 | hege | 2018-10-25 07:39:45 +0000 (Thu, 25 Oct 2018) | 2 lines
+ 
+ Do not resolve things unless is_dns_available()
+ 
+------------------------------------------------------------------------
+r1844808 | hege | 2018-10-25 06:07:23 +0000 (Thu, 25 Oct 2018) | 2 lines
+ 
+ Bug 6360 - "negative match" on a "0" string
+ 
+------------------------------------------------------------------------
+r1844620 | hege | 2018-10-23 07:07:53 +0000 (Tue, 23 Oct 2018) | 2 lines
+ 
+ Small ident fix
+ 
+------------------------------------------------------------------------
+r1844618 | hege | 2018-10-23 06:09:01 +0000 (Tue, 23 Oct 2018) | 2 lines
+ 
+ Fix t/get_all_headers.t
+ 
+------------------------------------------------------------------------
+r1844485 | gbechis | 2018-10-21 12:10:40 +0000 (Sun, 21 Oct 2018) | 3 
+lines
+ 
+ Add last_hit to awl table as well
+ bz #7631
+ 
+------------------------------------------------------------------------
+r1844387 | hege | 2018-10-20 03:19:42 +0000 (Sat, 20 Oct 2018) | 2 lines
+ 
+ Fix check_illegal_chars ALL:raw usage
+ 
+------------------------------------------------------------------------
+r1844385 | hege | 2018-10-20 03:05:08 +0000 (Sat, 20 Oct 2018) | 2 lines
+ 
+ Sync with trunk, ALL fixes
+ 
+------------------------------------------------------------------------
+r1844384 | hege | 2018-10-20 02:57:00 +0000 (Sat, 20 Oct 2018) | 2 lines
+ 
+ Fix typo..
+ 
+------------------------------------------------------------------------
+r1844383 | hege | 2018-10-20 02:54:21 +0000 (Sat, 20 Oct 2018) | 2 lines
+ 
+ Make ALL pseudo-header return decoded headers, so it's usage is 
+consistent with normal header usage
+ 
+------------------------------------------------------------------------
+r1844334 | hege | 2018-10-19 12:49:51 +0000 (Fri, 19 Oct 2018) | 2 lines
+ 
+ Bug 7224 - fix get_all_hdrs_in_rcvd_index_range, get(ALL[-*]) should 
+return unfolded header lines unless :raw called
+ 
+------------------------------------------------------------------------
+r1844306 | gbechis | 2018-10-19 06:36:47 +0000 (Fri, 19 Oct 2018) | 4 
+lines
+ 
+ Starting from SQL-92 "count" is a reserved word
+ Renamed field count to msgcount, follow UPGRADE notes to update your 
+database
+ fixes bz #7578
+ 
+------------------------------------------------------------------------
+r1843623 | gbechis | 2018-10-12 06:38:56 +0000 (Fri, 12 Oct 2018) | 3 
+lines
+ 
+ Change an info message into a debug message, not useful for the average 
+user
+ bz #7632
+ 
+------------------------------------------------------------------------
+r1843622 | gbechis | 2018-10-12 06:14:11 +0000 (Fri, 12 Oct 2018) | 3 
+lines
+ 
+ Fix txrep_ipv{4,6}_mask_len option
+ bz #7640
+ 
+------------------------------------------------------------------------
+r1843574 | hege | 2018-10-11 17:03:36 +0000 (Thu, 11 Oct 2018) | 2 lines
+ 
+ Bug 7641 - FromNameSpoof plugin comments still reference dns_check
+ 
+------------------------------------------------------------------------
+r1843047 | hege | 2018-10-07 07:43:12 +0000 (Sun, 07 Oct 2018) | 2 lines
+ 
+ Deprecate ancient TieOneStringHash usage, it's an absolute performance 
+pig
+ 
+------------------------------------------------------------------------
+r1843010 | gbechis | 2018-10-06 10:45:59 +0000 (Sat, 06 Oct 2018) | 3 
+lines
+ 
+ do not consider Sympa headers in Bayes as we have done
+ for other mailing lists softwares
+ 
+------------------------------------------------------------------------
+r1842773 | hege | 2018-10-04 04:49:18 +0000 (Thu, 04 Oct 2018) | 2 lines
+ 
+ Bug 7589 - Tag optional modules in debug_diagnostics
+ 
+------------------------------------------------------------------------
+r1842645 | gbechis | 2018-10-02 17:40:43 +0000 (Tue, 02 Oct 2018) | 2 
+lines
+ 
+ fix spamc file leak, bz #7638
+ 
+------------------------------------------------------------------------
+r1842597 | gbechis | 2018-10-02 06:35:44 +0000 (Tue, 02 Oct 2018) | 2 
+lines
+ 
+ typo
+ 
+------------------------------------------------------------------------
+r1842593 | hege | 2018-10-02 04:56:57 +0000 (Tue, 02 Oct 2018) | 2 lines
+ 
+ Allow decimal number in meta token (Bug 7557)
+ 
+------------------------------------------------------------------------
+r1842467 | hege | 2018-10-01 10:44:52 +0000 (Mon, 01 Oct 2018) | 2 lines
+ 
+ Fix doc typo
+ 
+------------------------------------------------------------------------
+r1842427 | gbechis | 2018-10-01 06:21:12 +0000 (Mon, 01 Oct 2018) | 3 
+lines
+ 
+ fix a typo and unbreak
+ bz #7636
+ 
+------------------------------------------------------------------------
+r1842426 | hege | 2018-10-01 05:02:34 +0000 (Mon, 01 Oct 2018) | 2 lines
+ 
+ Actually fastest this way
+ 
+------------------------------------------------------------------------
+r1842425 | hege | 2018-10-01 04:47:21 +0000 (Mon, 01 Oct 2018) | 2 lines
+ 
+ Fix very bad optimization
+ 
+------------------------------------------------------------------------
+r1842403 | hege | 2018-09-30 18:24:47 +0000 (Sun, 30 Sep 2018) | 2 lines
+ 
+ Actually tell which meta rules token is considered strange
+ 
+------------------------------------------------------------------------
+r1842326 | hege | 2018-09-29 12:10:15 +0000 (Sat, 29 Sep 2018) | 2 lines
+ 
+ Fix bug 7418 changes, next mirror retry works again. Few cosmetic 
+updates.
+ 
+------------------------------------------------------------------------
+r1842321 | hege | 2018-09-29 10:20:26 +0000 (Sat, 29 Sep 2018) | 2 lines
+ 
+ Bug 7623 - sa-update files with mirrors containing paths (or ports)
+ 
+------------------------------------------------------------------------
+r1842303 | hege | 2018-09-29 09:41:24 +0000 (Sat, 29 Sep 2018) | 2 lines
+ 
+ Bug 7623 - sa-update files with mirrors containing paths (or ports)
+ 
+------------------------------------------------------------------------
+r1842074 | hege | 2018-09-27 08:04:21 +0000 (Thu, 27 Sep 2018) | 2 lines
+ 
+ Add touch_file() to utils
+ 
+------------------------------------------------------------------------
+r1842029 | hege | 2018-09-26 14:21:12 +0000 (Wed, 26 Sep 2018) | 2 lines
+ 
+ Bug 7624 - fix fns_ignore_dkim etc cleanup
+ 
+------------------------------------------------------------------------
+r1842026 | hege | 2018-09-26 13:57:29 +0000 (Wed, 26 Sep 2018) | 2 lines
+ 
+ HashBL did lookups with only local tests enabled :-(
+ 
+------------------------------------------------------------------------
+r1841938 | hege | 2018-09-25 14:29:14 +0000 (Tue, 25 Sep 2018) | 2 lines
+ 
+ Remove anti-optimization (remember to benchmark these things..)
+ 
+------------------------------------------------------------------------
+r1841937 | hege | 2018-09-25 14:28:23 +0000 (Tue, 25 Sep 2018) | 2 lines
+ 
+ Fix indentation
+ 
+------------------------------------------------------------------------
+r1841821 | hege | 2018-09-24 09:53:55 +0000 (Mon, 24 Sep 2018) | 2 lines
+ 
+ Bug 7610 - Fix and move DKIM_INVALID to official rules
+ 
+------------------------------------------------------------------------
+r1841820 | hege | 2018-09-24 09:52:33 +0000 (Mon, 24 Sep 2018) | 2 lines
+ 
+ Add missing t/freemail.t
+ 
+------------------------------------------------------------------------
+r1841804 | hege | 2018-09-24 08:07:48 +0000 (Mon, 24 Sep 2018) | 2 lines
+ 
+ Add freemail_import_whitelist_auth, freemail_import_def_whitelist_auth 
+(Bug 6451)
+ 
+------------------------------------------------------------------------
+r1841802 | hege | 2018-09-24 06:55:34 +0000 (Mon, 24 Sep 2018) | 2 lines
+ 
+ Perldocified and added t/freemail.t test
+ 
+------------------------------------------------------------------------
+r1841540 | gbechis | 2018-09-21 06:55:32 +0000 (Fri, 21 Sep 2018) | 3 
+lines
+ 
+ fix fp FORGED_YAHOO_RCVD
+ bz# 7625
+ 
+------------------------------------------------------------------------
+r1841433 | gbechis | 2018-09-20 07:18:53 +0000 (Thu, 20 Sep 2018) | 4 
+lines
+ 
+ revert r1838778, fixing a possible use-after-free,
+ opt can be used later.
+ bz #7633
+ 
+------------------------------------------------------------------------
+r1841427 | hege | 2018-09-20 06:25:02 +0000 (Thu, 20 Sep 2018) | 2 lines
+ 
+ MANIFEST missing t/relaycountry_geoip2.t
+ 
+------------------------------------------------------------------------
+r1841423 | hege | 2018-09-20 05:24:08 +0000 (Thu, 20 Sep 2018) | 2 lines
+ 
+ Add /var/lib/GeoIP to search path
+ 
+------------------------------------------------------------------------
+r1841422 | hege | 2018-09-20 05:10:45 +0000 (Thu, 20 Sep 2018) | 2 lines
+ 
+ Make GeoIP2 default paths configurable, add ubuntu /var/lib/GeoIP, clean 
+up a bit
+ 
+------------------------------------------------------------------------
+r1841385 | hege | 2018-09-19 20:35:55 +0000 (Wed, 19 Sep 2018) | 2 lines
+ 
+ Duh, can add -L arg too
+ 
+------------------------------------------------------------------------
+r1841384 | hege | 2018-09-19 20:26:54 +0000 (Wed, 19 Sep 2018) | 2 lines
+ 
+ Add relaycountry_geoip2 test, fix all relaycountry tests not requiring 
+net
+ 
+------------------------------------------------------------------------
+r1841378 | hege | 2018-09-19 20:07:27 +0000 (Wed, 19 Sep 2018) | 2 lines
+ 
+ Try default database locations for GeoIP2
+ 
+------------------------------------------------------------------------
+r1841359 | hege | 2018-09-19 17:58:01 +0000 (Wed, 19 Sep 2018) | 2 lines
+ 
+ Reorganize code for simplicity/readability, handle GeoIP2 errors 
+gracefully
+ 
+------------------------------------------------------------------------
+r1841346 | hege | 2018-09-19 14:24:48 +0000 (Wed, 19 Sep 2018) | 2 lines
+ 
+ Fix few badly parsed IPs
+ 
+------------------------------------------------------------------------
+r1841313 | hege | 2018-09-19 10:44:43 +0000 (Wed, 19 Sep 2018) | 2 lines
+ 
+ Bug 7622: fix IP matching..
+ 
+------------------------------------------------------------------------
+r1841309 | gbechis | 2018-09-19 10:18:01 +0000 (Wed, 19 Sep 2018) | 4 
+lines
+ 
+ Prevent URILocalBL plugin from using dns in regression tests
+ and iff there is an ip in uri.
+ bz #7622
+ 
+------------------------------------------------------------------------
+r1841192 | gbechis | 2018-09-18 06:33:48 +0000 (Tue, 18 Sep 2018) | 3 
+lines
+ 
+ geoip regression tests needs network because of
+ dns
+ 
+------------------------------------------------------------------------
+r1841067 | kmcgrail | 2018-09-17 11:21:22 +0000 (Mon, 17 Sep 2018) | 1 
+line
+ 
+ Refining the process for announcing new versions - Bug 7620
+------------------------------------------------------------------------
+r1841065 | kmcgrail | 2018-09-17 11:14:16 +0000 (Mon, 17 Sep 2018) | 1 
+line
+ 
+ spamc fixes to compile for windows - bug 7617
+------------------------------------------------------------------------
+r1841063 | kmcgrail | 2018-09-17 11:11:19 +0000 (Mon, 17 Sep 2018) | 1 
+line
+ 
+ dmake install failure on windows - bug 7255
+------------------------------------------------------------------------
+r1841022 | kmcgrail | 2018-09-16 16:04:35 +0000 (Sun, 16 Sep 2018) | 1 
+line
+ 
+ more tweaks to the build process
+------------------------------------------------------------------------
+r1841018 | kmcgrail | 2018-09-16 14:38:05 +0000 (Sun, 16 Sep 2018) | 1 
+line
+ 
+ more cleanup on the build process
+------------------------------------------------------------------------
+r1841016 | kmcgrail | 2018-09-16 14:12:15 +0000 (Sun, 16 Sep 2018) | 1 
+line
+ 
+  more tweaks
+------------------------------------------------------------------------
+r1841010 | kmcgrail | 2018-09-16 13:42:55 +0000 (Sun, 16 Sep 2018) | 1 
+line
+ 
+ tweaks for updating the website docs
+------------------------------------------------------------------------
+r1841005 | kmcgrail | 2018-09-16 13:25:13 +0000 (Sun, 16 Sep 2018) | 1 
+line
+ 
+ small tweak on announcement
+------------------------------------------------------------------------
+r1840976 | kmcgrail | 2018-09-15 19:17:32 +0000 (Sat, 15 Sep 2018) | 1 
+line
+ 
+ Adding another step for release
+------------------------------------------------------------------------
+r1840966 | kmcgrail | 2018-09-15 06:25:34 +0000 (Sat, 15 Sep 2018) | 1 
+line
+ 
+ continue to document the release process
+------------------------------------------------------------------------
+r1840957 | gbechis | 2018-09-14 22:14:29 +0000 (Fri, 14 Sep 2018) | 2 
+lines
+ 
+ switch all ASF web sites uri to https
+ 
+------------------------------------------------------------------------
+r1840872 | kmcgrail | 2018-09-14 01:31:55 +0000 (Fri, 14 Sep 2018) | 1 
+line
+ 
+ build process clean-up and 3.4.2 announcement updates
+------------------------------------------------------------------------
+r1840870 | kmcgrail | 2018-09-14 01:25:10 +0000 (Fri, 14 Sep 2018) | 1 
+line
+ 
+ preparing to release 3.4.2
+------------------------------------------------------------------------
+r1840662 | sidney | 2018-09-12 11:35:41 +0000 (Wed, 12 Sep 2018) | 1 line
+ 
+ Add Paul Stead as committer
+------------------------------------------------------------------------
+r1840385 | kmcgrail | 2018-09-08 21:37:32 +0000 (Sat, 08 Sep 2018) | 1 
+line
+ 
+ more build updates and new rc1 sums for announcement
+------------------------------------------------------------------------
+r1840380 | kmcgrail | 2018-09-08 21:08:05 +0000 (Sat, 08 Sep 2018) | 1 
+line
+ 
+ preparing to release 3.4.2-rc1 again with new sa-update
+------------------------------------------------------------------------
+r1840377 | kmcgrail | 2018-09-08 20:40:12 +0000 (Sat, 08 Sep 2018) | 1 
+line
+ 
+ Removing sha-1 sig support from sa-update - bug 7614
+------------------------------------------------------------------------
+r1840330 | kmcgrail | 2018-09-08 01:05:14 +0000 (Sat, 08 Sep 2018) | 1 
+line
+ 
+ changing to 3.3.3 to 3.3.2
+------------------------------------------------------------------------
+r1840329 | kmcgrail | 2018-09-08 01:03:42 +0000 (Sat, 08 Sep 2018) | 1 
+line
+ 
+ fixing a small typo in the announcement
+------------------------------------------------------------------------
+r1840233 | kmcgrail | 2018-09-06 16:07:14 +0000 (Thu, 06 Sep 2018) | 1 
+line
+ 
+ updating the hash sigs for the announcement
+------------------------------------------------------------------------
+r1840230 | kmcgrail | 2018-09-06 15:47:47 +0000 (Thu, 06 Sep 2018) | 1 
+line
+ 
+ preparing to release 3.4.2-rc1
+------------------------------------------------------------------------
+r1840219 | kmcgrail | 2018-09-06 13:02:56 +0000 (Thu, 06 Sep 2018) | 1 
+line
+ 
+ more cleanup of branding and build process
+------------------------------------------------------------------------
+r1840213 | kmcgrail | 2018-09-06 12:04:10 +0000 (Thu, 06 Sep 2018) | 1 
+line
+ 
+ fix for Util wrap pre Perl 5.14 - bug 7616
+------------------------------------------------------------------------
+r1840170 | kmcgrail | 2018-09-05 23:46:20 +0000 (Wed, 05 Sep 2018) | 1 
+line
+ 
+ updating the readme and announcement text
+------------------------------------------------------------------------
+r1840128 | kmcgrail | 2018-09-05 12:15:57 +0000 (Wed, 05 Sep 2018) | 1 
+line
+ 
+ sa-update version work - bug 7006
+------------------------------------------------------------------------
+r1840072 | billcole | 2018-09-04 22:27:55 +0000 (Tue, 04 Sep 2018) | 1 
+line
+ 
+ Make leading space/zero for one-digit dates in mbox separator optional 
+Bug 7445
+------------------------------------------------------------------------
+r1840053 | kmcgrail | 2018-09-04 17:32:36 +0000 (Tue, 04 Sep 2018) | 1 
+line
+ 
+ Fixing the docs bug 7042
+------------------------------------------------------------------------
+r1840050 | billcole | 2018-09-04 16:39:43 +0000 (Tue, 04 Sep 2018) | 1 
+line
+ 
+ document %x token foe Exim-like virtual config dirs
+------------------------------------------------------------------------
+r1839962 | hege | 2018-09-03 13:21:42 +0000 (Mon, 03 Sep 2018) | 2 lines
+ 
+ Optimize loop, run hits only once
+ 
+------------------------------------------------------------------------
+r1839883 | hege | 2018-09-02 13:50:12 +0000 (Sun, 02 Sep 2018) | 2 lines
+ 
+ Fix SHA512 verification
+ 
+------------------------------------------------------------------------
+r1839865 | billcole | 2018-09-02 00:44:43 +0000 (Sun, 02 Sep 2018) | 1 
+line
+ 
+ Add SHA512 support to build/mkupdates/* scripts and sa-update
+------------------------------------------------------------------------
+r1839854 | kmcgrail | 2018-09-01 21:23:41 +0000 (Sat, 01 Sep 2018) | 1 
+line
+ 
+ More SHA256/512issues identified
+------------------------------------------------------------------------
+r1839851 | kmcgrail | 2018-09-01 21:11:42 +0000 (Sat, 01 Sep 2018) | 1 
+line
+ 
+ preparing to release 3.4.2-pre5
+------------------------------------------------------------------------
+r1839848 | kmcgrail | 2018-09-01 21:05:17 +0000 (Sat, 01 Sep 2018) | 1 
+line
+ 
+ Preparing 3.4.2-pre4
+------------------------------------------------------------------------
+r1839835 | kmcgrail | 2018-09-01 18:03:57 +0000 (Sat, 01 Sep 2018) | 1 
+line
+ 
+ Minor MANIFEST fix
+------------------------------------------------------------------------
+r1839834 | kmcgrail | 2018-09-01 18:01:46 +0000 (Sat, 01 Sep 2018) | 1 
+line
+ 
+ Streamlining the build process, Updating the build process for new 
+infrastructure and switching to sha256/512 - bug 7596
+------------------------------------------------------------------------
+r1839832 | billcole | 2018-09-01 17:46:01 +0000 (Sat, 01 Sep 2018) | 1 
+line
+ 
+ remove pointless and incompatible  modifier from recent patch
+------------------------------------------------------------------------
+r1839826 | kmcgrail | 2018-09-01 14:55:44 +0000 (Sat, 01 Sep 2018) | 1 
+line
+ 
+ Cleanup on README file
+------------------------------------------------------------------------
+r1839824 | kmcgrail | 2018-09-01 14:21:36 +0000 (Sat, 01 Sep 2018) | 1 
+line
+ 
+ Placeholder for Upgrade info
+------------------------------------------------------------------------
+r1839807 | kmcgrail | 2018-09-01 05:39:30 +0000 (Sat, 01 Sep 2018) | 1 
+line
+ 
+ Preparing to release 3.4.2-pre4
+------------------------------------------------------------------------
+r1839806 | kmcgrail | 2018-09-01 05:37:42 +0000 (Sat, 01 Sep 2018) | 1 
+line
+ 
+ Fixing minor logic issue on HAS_DSA
+------------------------------------------------------------------------
+r1839797 | billcole | 2018-08-31 23:43:25 +0000 (Fri, 31 Aug 2018) | 1 
+line
+ 
+ skip unparseable Cyrus LMTPA over unix socket Received header 
+------------------------------------------------------------------------
+r1839792 | billcole | 2018-08-31 22:04:32 +0000 (Fri, 31 Aug 2018) | 1 
+line
+ 
+ Actually implementing use_bayes_rules distinct from use_bayes. Bug #7110
+------------------------------------------------------------------------
+r1839684 | kmcgrail | 2018-08-30 15:26:34 +0000 (Thu, 30 Aug 2018) | 1 
+line
+ 
+ Fix warnings on Windows platform in 3.4 - bug 7259
+------------------------------------------------------------------------
+r1839641 | gbechis | 2018-08-30 07:32:41 +0000 (Thu, 30 Aug 2018) | 2 
+lines
+ 
+ typo in man page
+ 
+------------------------------------------------------------------------
+r1839639 | gbechis | 2018-08-30 07:30:54 +0000 (Thu, 30 Aug 2018) | 2 
+lines
+ 
+ Phishing plugin
+ 
+------------------------------------------------------------------------
+r1839638 | gbechis | 2018-08-30 07:27:29 +0000 (Thu, 30 Aug 2018) | 6 
+lines
+ 
+ Add  Mail::SpamAssassin::Plugin::Phishing
+ This phishing plugin finds uris used in phishing campaigns detected by
+ OpenPhish or PhishTank feeds.
+ 
+ bz 7564
+ 
+------------------------------------------------------------------------
+r1839529 | kmcgrail | 2018-08-29 01:29:54 +0000 (Wed, 29 Aug 2018) | 1 
+line
+ 
+ Fixing small perlcritic issue
+------------------------------------------------------------------------
+r1839517 | kmcgrail | 2018-08-29 00:27:22 +0000 (Wed, 29 Aug 2018) | 1 
+line
+ 
+ small spelling error
+------------------------------------------------------------------------
+r1839515 | billcole | 2018-08-28 23:55:29 +0000 (Tue, 28 Aug 2018) | 1 
+line
+ 
+ Detect UTF-16 flavor
+------------------------------------------------------------------------
+r1839514 | billcole | 2018-08-28 23:44:51 +0000 (Tue, 28 Aug 2018) | 1 
+line
+ 
+ switch default for parse_dkim_uris
+------------------------------------------------------------------------
+r1839511 | billcole | 2018-08-28 23:12:05 +0000 (Tue, 28 Aug 2018) | 1 
+line
+ 
+ Fixing t/util_wrap.t for new tab=>8 spaces accounting
+------------------------------------------------------------------------
+r1839487 | billcole | 2018-08-28 17:16:00 +0000 (Tue, 28 Aug 2018) | 1 
+line
+ 
+ Making allowance for tabs in M::SA::Util=>wrap(), tweaking default wrap 
+width
+------------------------------------------------------------------------
+r1839410 | gbechis | 2018-08-28 07:45:52 +0000 (Tue, 28 Aug 2018) | 4 
+lines
+ 
+ Fix indented rules to be rescored
+ Give a chance to RCVD_IN_MSPIKE rules.
+ bz #6400
+ 
+------------------------------------------------------------------------
+r1839409 | gbechis | 2018-08-28 07:35:13 +0000 (Tue, 28 Aug 2018) | 2 
+lines
+ 
+ Mention 'report_wrap_width' new option
+ 
+------------------------------------------------------------------------
+r1839390 | kmcgrail | 2018-08-28 02:48:28 +0000 (Tue, 28 Aug 2018) | 1 
+line
+ 
+ Adding more features to WLBLEval - Bug 7354
+------------------------------------------------------------------------
+r1839388 | kmcgrail | 2018-08-28 02:39:26 +0000 (Tue, 28 Aug 2018) | 1 
+line
+ 
+ Adding FromNameSpoof plugin - bug 7606
+------------------------------------------------------------------------
+r1839367 | billcole | 2018-08-27 19:18:16 +0000 (Mon, 27 Aug 2018) | 1 
+line
+ 
+ Adding configurable wrap width for X-Spam-Report header. Bug #6104
+------------------------------------------------------------------------
+r1839294 | gbechis | 2018-08-27 10:41:59 +0000 (Mon, 27 Aug 2018) | 2 
+lines
+ 
+ detect Sympa mailinglists, bz #7523
+ 
+------------------------------------------------------------------------
+r1839260 | kmcgrail | 2018-08-26 21:55:00 +0000 (Sun, 26 Aug 2018) | 1 
+line
+ 
+ build_spamc & build_spamd are options for win32 only - bug 7376
+------------------------------------------------------------------------
+r1839147 | kmcgrail | 2018-08-25 23:31:00 +0000 (Sat, 25 Aug 2018) | 1 
+line
+ 
+ Addig tag for LASTEXTERNALIP - Bug 7334
+------------------------------------------------------------------------
+r1839143 | kmcgrail | 2018-08-25 23:17:51 +0000 (Sat, 25 Aug 2018) | 1 
+line
+ 
+ allow font names in tickmarks - bug 7312
+------------------------------------------------------------------------
+r1839141 | kmcgrail | 2018-08-25 23:11:53 +0000 (Sat, 25 Aug 2018) | 1 
+line
+ 
+ changing socket handling for spamd - bug 7274
+------------------------------------------------------------------------
+r1839140 | kmcgrail | 2018-08-25 23:04:42 +0000 (Sat, 25 Aug 2018) | 1 
+line
+ 
+ Improving razor2 test
+------------------------------------------------------------------------
+r1839137 | kmcgrail | 2018-08-25 22:49:01 +0000 (Sat, 25 Aug 2018) | 1 
+line
+ 
+ changing make to $Config{make} for sa-compile - bug 7294
+------------------------------------------------------------------------
+r1839132 | kmcgrail | 2018-08-25 22:35:14 +0000 (Sat, 25 Aug 2018) | 1 
+line
+ 
+ Add references to plugins - bug 7280
+------------------------------------------------------------------------
+r1839127 | kmcgrail | 2018-08-25 22:08:33 +0000 (Sat, 25 Aug 2018) | 1 
+line
+ 
+ Adding information rule updates and sha1 to announcement
+------------------------------------------------------------------------
+r1839085 | gbechis | 2018-08-25 17:20:14 +0000 (Sat, 25 Aug 2018) | 2 
+lines
+ 
+ revert r1826179, fixes bz #7602
+ 
+------------------------------------------------------------------------
+r1839015 | billcole | 2018-08-25 05:15:19 +0000 (Sat, 25 Aug 2018) | 1 
+line
+ 
+ Really skip Devel::SawAmpersand test when it's unneeded
+------------------------------------------------------------------------
+r1839005 | kmcgrail | 2018-08-25 01:44:30 +0000 (Sat, 25 Aug 2018) | 1 
+line
+ 
+ adding a description of why the change exists
+------------------------------------------------------------------------
+r1839002 | kmcgrail | 2018-08-25 01:22:03 +0000 (Sat, 25 Aug 2018) | 1 
+line
+ 
+ Adding more cases for user_prefs.template to be found - bug 7298
+------------------------------------------------------------------------
+r1838999 | kmcgrail | 2018-08-25 00:47:02 +0000 (Sat, 25 Aug 2018) | 1 
+line
+ 
+ Small fix for new6 bug - reported by ToddR, cPanel
+------------------------------------------------------------------------
+r1838992 | kmcgrail | 2018-08-24 23:58:13 +0000 (Fri, 24 Aug 2018) | 1 
+line
+ 
+ fixing Use of uninitialized value $file in File::Spec->catpath bug 7272
+------------------------------------------------------------------------
+r1838856 | gbechis | 2018-08-24 13:39:02 +0000 (Fri, 24 Aug 2018) | 2 
+lines
+ 
+ typo in optional module
+ 
+------------------------------------------------------------------------
+r1838854 | gbechis | 2018-08-24 13:29:27 +0000 (Fri, 24 Aug 2018) | 2 
+lines
+ 
+ Mention Mail::SpamAssassin::Plugin::ResourceLimit
+ 
+------------------------------------------------------------------------
+r1838779 | kmcgrail | 2018-08-24 01:53:14 +0000 (Fri, 24 Aug 2018) | 1 
+line
+ 
+ fixing an opt not freed. bug 7509
+------------------------------------------------------------------------
+r1838777 | kmcgrail | 2018-08-24 01:45:57 +0000 (Fri, 24 Aug 2018) | 1 
+line
+ 
+ Reverting previous comment of return - bug 7191 comment 18
+------------------------------------------------------------------------
+r1838775 | kmcgrail | 2018-08-24 01:35:46 +0000 (Fri, 24 Aug 2018) | 1 
+line
+ 
+ logic switch on spamd to fix the unlimited timeout option.  bug 6748
+------------------------------------------------------------------------
+r1838771 | kmcgrail | 2018-08-24 00:45:27 +0000 (Fri, 24 Aug 2018) | 1 
+line
+ 
+ Adding ResourceLimits.pm plugin and dependency test for BSD::Resources
+------------------------------------------------------------------------
+r1838645 | billcole | 2018-08-22 15:24:51 +0000 (Wed, 22 Aug 2018) | 1 
+line
+ 
+ Restoring required -D flag so that the patterns & antipatterns can 
+actually work
+------------------------------------------------------------------------
+r1838604 | kmcgrail | 2018-08-22 04:41:03 +0000 (Wed, 22 Aug 2018) | 1 
+line
+ 
+ Minor version check robustness bug 7095
+------------------------------------------------------------------------
+r1838601 | kmcgrail | 2018-08-22 04:15:31 +0000 (Wed, 22 Aug 2018) | 1 
+line
+ 
+ Adding info about rules being in root to manifest
+------------------------------------------------------------------------
+r1838598 | kmcgrail | 2018-08-22 04:06:35 +0000 (Wed, 22 Aug 2018) | 1 
+line
+ 
+ Commenting a change accidentally committed for Bug 7095
+------------------------------------------------------------------------
+r1838597 | kmcgrail | 2018-08-22 03:56:32 +0000 (Wed, 22 Aug 2018) | 1 
+line
+ 
+ rules, rulesrc and t.rules are only in trunk now
+------------------------------------------------------------------------
+r1838596 | kmcgrail | 2018-08-22 03:55:49 +0000 (Wed, 22 Aug 2018) | 1 
+line
+ 
+ prepping for 3.4.2 release
+------------------------------------------------------------------------
+r1838594 | kmcgrail | 2018-08-22 02:27:45 +0000 (Wed, 22 Aug 2018) | 1 
+line
+ 
+ Removing 3 experimental/devel plugins
+------------------------------------------------------------------------
+r1838591 | kmcgrail | 2018-08-21 23:53:30 +0000 (Tue, 21 Aug 2018) | 1 
+line
+ 
+ Remove pretty command line in ps so pkill can work
+------------------------------------------------------------------------
+r1838588 | kmcgrail | 2018-08-21 23:22:01 +0000 (Tue, 21 Aug 2018) | 1 
+line
+ 
+ Reminder not to leave -D
+------------------------------------------------------------------------
+r1838586 | billcole | 2018-08-21 21:34:03 +0000 (Tue, 21 Aug 2018) | 1 
+line
+ 
+ tighten up patterns in t/dnsbl.t
+------------------------------------------------------------------------
+r1838522 | gbechis | 2018-08-21 07:51:57 +0000 (Tue, 21 Aug 2018) | 2 
+lines
+ 
+ Describe some of the code developed and to be released in 3.4.2
+ 
+------------------------------------------------------------------------
+r1838511 | billcole | 2018-08-20 23:48:03 +0000 (Mon, 20 Aug 2018) | 1 
+line
+ 
+ Check for rules before using them in test
+------------------------------------------------------------------------
+r1838509 | kmcgrail | 2018-08-20 23:32:03 +0000 (Mon, 20 Aug 2018) | 1 
+line
+ 
+ Updated committer and pmc list
+------------------------------------------------------------------------
+r1838499 | billcole | 2018-08-20 21:45:37 +0000 (Mon, 20 Aug 2018) | 1 
+line
+ 
+ backport trunk sa-compile and t/sa_compile.t fixes
+------------------------------------------------------------------------
+r1838491 | kmcgrail | 2018-08-20 20:52:44 +0000 (Mon, 20 Aug 2018) | 1 
+line
+ 
+ rewrite of razor2 test and a sample email for testing
+------------------------------------------------------------------------
+r1838489 | kmcgrail | 2018-08-20 20:52:11 +0000 (Mon, 20 Aug 2018) | 1 
+line
+ 
+ rewrite of razor2 test and a sample email for testing
+------------------------------------------------------------------------
+r1838485 | kmcgrail | 2018-08-20 20:07:49 +0000 (Mon, 20 Aug 2018) | 1 
+line
+ 
+ removing prototype on bgread for PerlCritic
+------------------------------------------------------------------------
+r1838443 | kmcgrail | 2018-08-20 17:39:25 +0000 (Mon, 20 Aug 2018) | 1 
+line
+ 
+ moved rules and rules-extra to trunk-only for 3.4 and continue 
+streamlining build process
+------------------------------------------------------------------------
+r1838429 | kmcgrail | 2018-08-20 14:20:05 +0000 (Mon, 20 Aug 2018) | 1 
+line
+ 
+ framework for 3.4.2 announcement
+------------------------------------------------------------------------
+r1838390 | kmcgrail | 2018-08-19 16:14:03 +0000 (Sun, 19 Aug 2018) | 1 
+line
+ 
+ Fixing the MANIFEST
+------------------------------------------------------------------------
+r1838387 | kmcgrail | 2018-08-19 16:13:01 +0000 (Sun, 19 Aug 2018) | 1 
+line
+ 
+  Bug 7591 not using this faster untaint
+------------------------------------------------------------------------
+r1838374 | gbechis | 2018-08-19 10:10:16 +0000 (Sun, 19 Aug 2018) | 2 
+lines
+ 
+ refactor some "require" code
+ 
+------------------------------------------------------------------------
+r1838365 | gbechis | 2018-08-19 08:54:59 +0000 (Sun, 19 Aug 2018) | 2 
+lines
+ 
+ skip tests if GeoIP is installed but there are no databases available
+ 
+------------------------------------------------------------------------
+r1838364 | gbechis | 2018-08-19 08:52:11 +0000 (Sun, 19 Aug 2018) | 2 
+lines
+ 
+ better detection of GeoIP installed modules
+ 
+------------------------------------------------------------------------
+r1837877 | gbechis | 2018-08-11 18:33:18 +0000 (Sat, 11 Aug 2018) | 2 
+lines
+ 
+ typo
+ 
+------------------------------------------------------------------------
+r1837876 | gbechis | 2018-08-11 18:23:51 +0000 (Sat, 11 Aug 2018) | 3 
+lines
+ 
+ close file descriptors when they are no more needed
+ probably only partial fix for #7587
+ 
+------------------------------------------------------------------------
+r1837466 | gbechis | 2018-08-05 13:39:41 +0000 (Sun, 05 Aug 2018) | 4 
+lines
+ 
+ Starting from 04/01/2018 GeoLite Legacy databases have been 
+discontinued.      
+ Add optional support to new Maxmind database type (GeoIP2).
+ fixes bz #7529
+ 
+------------------------------------------------------------------------
+r1837465 | gbechis | 2018-08-05 13:38:31 +0000 (Sun, 05 Aug 2018) | 8 
+lines
+ 
+ Starting from 04/01/2018 GeoLite Legacy databases have been 
+discontinued.      
+ Add optional support to new Maxmind database type (GeoIP2).
+ In addiction to that add support also to IP::Country::DB_File database;
+ IP::Country::DB_File database is created from official 
+Ripe/Arin/Afrinic/... 
+ data, it's faster than IP::Country::Fast on updating a database and it 
+supports ipv6.
+ 
+ fixes bz #7529
+ 
+------------------------------------------------------------------------
+r1836883 | gbechis | 2018-07-28 09:38:39 +0000 (Sat, 28 Jul 2018) | 3 
+lines
+ 
+ Add possibility to match multiple rules
+ for a single uri, bz #7595
+ 
+------------------------------------------------------------------------
+r1836855 | gbechis | 2018-07-27 18:03:13 +0000 (Fri, 27 Jul 2018) | 2 
+lines
+ 
+ improve tests
+ 
+------------------------------------------------------------------------
+r1836516 | gbechis | 2018-07-23 21:23:37 +0000 (Mon, 23 Jul 2018) | 2 
+lines
+ 
+ Add Mail::SpamAssassin::Plugin::URILocalBL regression tests
+ 
+------------------------------------------------------------------------
+r1836275 | gbechis | 2018-07-19 14:19:48 +0000 (Thu, 19 Jul 2018) | 2 
+lines
+ 
+ Mail::SpamAssassin::Plugin::RelayCountry regression tests
+ 
+------------------------------------------------------------------------
+r1835030 | gbechis | 2018-07-03 22:20:19 +0000 (Tue, 03 Jul 2018) | 2 
+lines
+ 
+ make it work even if SA is not installed
+ 
+------------------------------------------------------------------------
+r1834725 | gbechis | 2018-06-30 07:01:43 +0000 (Sat, 30 Jun 2018) | 2 
+lines
+ 
+ typo in man page
+ 
+------------------------------------------------------------------------
+r1834723 | gbechis | 2018-06-30 06:37:15 +0000 (Sat, 30 Jun 2018) | 3 
+lines
+ 
+ correct syntax for GRANT with PostgreSQL
+ bz 7281
+ 
+------------------------------------------------------------------------
+r1834722 | gbechis | 2018-06-30 06:12:21 +0000 (Sat, 30 Jun 2018) | 5 
+lines
+ 
+ remove an extra blank line put on the MIME-parts
+ array. That way the resultant email analized
+ by SA was a bit different from the original one.
+ bz 6708
+ 
+------------------------------------------------------------------------
+r1834452 | billcole | 2018-06-26 17:37:23 +0000 (Tue, 26 Jun 2018) | 1 
+line
+ 
+ Test for bug 7591
+------------------------------------------------------------------------
+r1834327 | billcole | 2018-06-25 13:34:44 +0000 (Mon, 25 Jun 2018) | 1 
+line
+ 
+ REALLY revert whitewash fix of t/idn_dots.t
+------------------------------------------------------------------------
+r1834325 | billcole | 2018-06-25 13:30:17 +0000 (Mon, 25 Jun 2018) | 1 
+line
+ 
+ Revert whitewash fix of t/idn_dots.t
+------------------------------------------------------------------------
+r1834218 | billcole | 2018-06-23 17:21:42 +0000 (Sat, 23 Jun 2018) | 1 
+line
+ 
+ add 'use utf8' for older Perl
+------------------------------------------------------------------------
+r1834151 | kmcgrail | 2018-06-22 18:09:19 +0000 (Fri, 22 Jun 2018) | 1 
+line
+ 
+ Working on idn_dots.t test failures for RC4
+------------------------------------------------------------------------
+r1833929 | gbechis | 2018-06-20 17:16:33 +0000 (Wed, 20 Jun 2018) | 3 
+lines
+ 
+ silence a warning if GeoIP v6 database is not installed
+ but a v6 address is on relay headers
+ 
+------------------------------------------------------------------------
+r1833660 | gbechis | 2018-06-17 09:41:02 +0000 (Sun, 17 Jun 2018) | 11 
+lines
+ 
+ partial fix for bz 7529
+ starting from 04/01/2018, Geolite legacy databases has been
+ discontinued and they will be no more updates.
+ Add a "country_db_type" option that will let the user choose
+ between GeoIP and IP::Country::Fast databases.
+ By default GeoIP is enabled and there is still a fallback
+ on IP::Country::Fast as in previuos implementation.
+ 
+ IP::Country::Fast has no ipv6 support, so a better api
+ should be adopted sooner or later.
+ 
+------------------------------------------------------------------------
+r1833617 | billcole | 2018-06-15 17:33:15 +0000 (Fri, 15 Jun 2018) | 1 
+line
+ 
+ Reverting prematurely-committed changes
+------------------------------------------------------------------------
+r1833615 | billcole | 2018-06-15 17:23:05 +0000 (Fri, 15 Jun 2018) | 1 
+line
+ 
+ Corrected link to Pyzor documentation site, replacing OTHER dead SF link.
+------------------------------------------------------------------------
+r1832678 | gbechis | 2018-06-01 11:15:23 +0000 (Fri, 01 Jun 2018) | 2 
+lines
+ 
+ fix custom headers length, fix another fp via Google Groups
+ 
+------------------------------------------------------------------------
+r1831955 | gbechis | 2018-05-21 06:24:55 +0000 (Mon, 21 May 2018) | 2 
+lines
+ 
+ more generic regexp to match ipv6
+ 
+------------------------------------------------------------------------
+r1831837 | gbechis | 2018-05-18 09:04:10 +0000 (Fri, 18 May 2018) | 2 
+lines
+ 
+ Unbreak FORGED_GMAIL_RCVD
+ 
+------------------------------------------------------------------------
+r1831826 | gbechis | 2018-05-18 07:13:02 +0000 (Fri, 18 May 2018) | 2 
+lines
+ 
+ Fix another fp on FORGED_GMAIL_RCVD rule
+ 
+------------------------------------------------------------------------
+r1831443 | gbechis | 2018-05-11 19:44:30 +0000 (Fri, 11 May 2018) | 2 
+lines
+ 
+ fix fp for FORGED_GMAIL_RCVD rule
+ 
+------------------------------------------------------------------------
+r1831329 | billcole | 2018-05-10 12:08:55 +0000 (Thu, 10 May 2018) | 1 
+line
+ 
+ revert r1823175
+------------------------------------------------------------------------
+r1831273 | billcole | 2018-05-09 17:37:07 +0000 (Wed, 09 May 2018) | 1 
+line
+ 
+ Improve spamd PID detection with a fixed pidfile
+------------------------------------------------------------------------
+r1831272 | billcole | 2018-05-09 17:35:07 +0000 (Wed, 09 May 2018) | 1 
+line
+ 
+ Decouple mass-check from "base" perl
+------------------------------------------------------------------------
+r1831073 | gbechis | 2018-05-07 06:37:50 +0000 (Mon, 07 May 2018) | 3 
+lines
+ 
+ Enforce a C locale when logging to stder
+ bz #7305
+ 
+------------------------------------------------------------------------
+r1829671 | gbechis | 2018-04-20 17:45:03 +0000 (Fri, 20 Apr 2018) | 2 
+lines
+ 
+ Test spamc also with --option=value case
+ 
+------------------------------------------------------------------------
+r1829628 | gbechis | 2018-04-20 06:48:21 +0000 (Fri, 20 Apr 2018) | 3 
+lines
+ 
+ too much free(3) will kill --reporttype=option handling
+ problem spotted by Reio Remma, thanks
+ 
+------------------------------------------------------------------------
+r1829033 | gbechis | 2018-04-13 06:45:35 +0000 (Fri, 13 Apr 2018) | 5 
+lines
+ 
+ Add an option to score uris per continent.
+ Possible continent codes are:
+ af, as, eu, na, oc, sa for Africa, Asia, Europe, North America, 
+ Oceania  and South America.
+ 
+------------------------------------------------------------------------
+r1828218 | kmcgrail | 2018-04-03 11:28:11 +0000 (Tue, 03 Apr 2018) | 1 
+line
+ 
+ Adding Manifest items fo3 3.42
+------------------------------------------------------------------------
+r1826916 | billcole | 2018-03-16 03:15:19 +0000 (Fri, 16 Mar 2018) | 1 
+line
+ 
+ added optional support for SHA256 in addition to or instead of SHA1 
+validation
+------------------------------------------------------------------------
+r1826822 | gbechis | 2018-03-15 14:27:09 +0000 (Thu, 15 Mar 2018) | 2 
+lines
+ 
+ fix for perl older than 5.24
+ 
+------------------------------------------------------------------------
+r1826771 | gbechis | 2018-03-15 07:33:00 +0000 (Thu, 15 Mar 2018) | 4 
+lines
+ 
+ If there are rules present in score but not in .cf files a warning is 
+printed,
+ shut up the warning.
+ bz 7535
+ 
+------------------------------------------------------------------------
+r1826742 | gbechis | 2018-03-14 17:36:30 +0000 (Wed, 14 Mar 2018) | 3 
+lines
+ 
+ detect more http[s] url mismatches
+ bz 6977
+ 
+------------------------------------------------------------------------
+r1826740 | gbechis | 2018-03-14 17:26:02 +0000 (Wed, 14 Mar 2018) | 2 
+lines
+ 
+ fix utf8 mode
+ 
+------------------------------------------------------------------------
+r1826582 | billcole | 2018-03-12 17:49:59 +0000 (Mon, 12 Mar 2018) | 1 
+line
+ 
+ Update documentation of 'eval' rule method source, sanity-check method 
+calls. Fixes Bug #7558
+------------------------------------------------------------------------
+r1826356 | billcole | 2018-03-09 16:02:43 +0000 (Fri, 09 Mar 2018) | 1 
+line
+ 
+ Partial fix for bug 7558
+------------------------------------------------------------------------
+r1826202 | gbechis | 2018-03-08 10:48:04 +0000 (Thu, 08 Mar 2018) | 3 
+lines
+ 
+ add homedir parameter in dccproc call
+ RedHat bz 1532139 
+ 
+------------------------------------------------------------------------
+r1826187 | gbechis | 2018-03-08 08:17:53 +0000 (Thu, 08 Mar 2018) | 3 
+lines
+ 
+ fix utf8 decoding in some corner cases
+ bz 7520
+ 
+------------------------------------------------------------------------
+r1826179 | billcole | 2018-03-08 06:41:57 +0000 (Thu, 08 Mar 2018) | 1 
+line
+ 
+ Fix for Bug #7557
+------------------------------------------------------------------------
+r1826177 | billcole | 2018-03-08 05:33:13 +0000 (Thu, 08 Mar 2018) | 1 
+line
+ 
+ Fix for bug #7556
+------------------------------------------------------------------------
+r1825725 | gbechis | 2018-03-02 13:57:33 +0000 (Fri, 02 Mar 2018) | 2 
+lines
+ 
+ Add HashBL (Email Blocklist (EBL), http://msbl.org/ebl.html) plugin, bz 
+#7548
+ 
+------------------------------------------------------------------------
+r1825185 | gbechis | 2018-02-24 00:37:46 +0000 (Sat, 24 Feb 2018) | 4 
+lines
+ 
+ As per rfc 5322 the time zone is a required field,
+ so a date without time zone should be considered as invalid
+ bz #6894
+ 
+------------------------------------------------------------------------
+r1825177 | gbechis | 2018-02-23 22:50:32 +0000 (Fri, 23 Feb 2018) | 3 
+lines
+ 
+ document when --mbox or --mbx parameters are needed
+ bz #6857
+ 
+------------------------------------------------------------------------
+r1825175 | gbechis | 2018-02-23 22:44:45 +0000 (Fri, 23 Feb 2018) | 4 
+lines
+ 
+ In OpenBSD /usr/sbin/sysctl is a symlink to /sbin/sysctl
+ fix path, no functional change
+ bz #7545
+ 
+------------------------------------------------------------------------
+r1825157 | gbechis | 2018-02-23 18:25:25 +0000 (Fri, 23 Feb 2018) | 5 
+lines
+ 
+ Change a couple of die calls into warnings,
+ this way  pyzor throws a python error, 
+ all other async lookups are not aborted.
+ bz #7026
+ 
+------------------------------------------------------------------------
+r1825154 | gbechis | 2018-02-23 18:17:29 +0000 (Fri, 23 Feb 2018) | 3 
+lines
+ 
+ check for freemail for all emails in a Reply-To header
+ bz #6664
+ 
+------------------------------------------------------------------------
+r1825032 | gbechis | 2018-02-22 08:20:37 +0000 (Thu, 22 Feb 2018) | 3 
+lines
+ 
+ Check if $socket is defined and print error accordingly
+ bz 7380
+ 
+------------------------------------------------------------------------
+r1825018 | billcole | 2018-02-21 23:46:08 +0000 (Wed, 21 Feb 2018) | 1 
+line
+ 
+ Group switching code for bugs #7554 and #7555
+------------------------------------------------------------------------
+r1824931 | gbechis | 2018-02-21 07:33:02 +0000 (Wed, 21 Feb 2018) | 2 
+lines
+ 
+ Add an example of a rule that matches an ASN, bz 6929
+ 
+------------------------------------------------------------------------
+r1824688 | gbechis | 2018-02-18 18:35:40 +0000 (Sun, 18 Feb 2018) | 2 
+lines
+ 
+ fix all pod errors spotted in bz 7168 and many more
+ 
+------------------------------------------------------------------------
+r1824577 | gbechis | 2018-02-17 09:47:43 +0000 (Sat, 17 Feb 2018) | 2 
+lines
+ 
+ Fix some regression tests on OpenBSD, bz 7499
+ 
+------------------------------------------------------------------------
+r1823276 | kmcgrail | 2018-02-06 06:05:37 +0000 (Tue, 06 Feb 2018) | 1 
+line
+ 
+ Bug 7418 - sa-update change to handle cross platform newline better
+------------------------------------------------------------------------
+r1823274 | kmcgrail | 2018-02-06 05:10:42 +0000 (Tue, 06 Feb 2018) | 1 
+line
+ 
+ Bug 7496 - speed up startup code
+------------------------------------------------------------------------
+r1823205 | kmcgrail | 2018-02-05 16:13:03 +0000 (Mon, 05 Feb 2018) | 1 
+line
+ 
+ Clean-up of unmaintained tools and files that are only maintained in 
+trunk - see trunk-only/
+------------------------------------------------------------------------
+r1823175 | kmcgrail | 2018-02-05 14:10:22 +0000 (Mon, 05 Feb 2018) | 1 
+line
+ 
+ Bug 7492 - switch from use vars to our cleanup
+------------------------------------------------------------------------
+r1823171 | davej | 2018-02-05 13:34:29 +0000 (Mon, 05 Feb 2018) | 1 line
+ 
+ Bug 7417
+------------------------------------------------------------------------
+r1823142 | kmcgrail | 2018-02-05 09:10:12 +0000 (Mon, 05 Feb 2018) | 1 
+line
+ 
+ Bug 7491 switch test framework to Test::More
+------------------------------------------------------------------------
+r1823126 | kmcgrail | 2018-02-05 06:20:06 +0000 (Mon, 05 Feb 2018) | 1 
+line
+ 
+ Bug 7481 - Adding build time specification of re2c binary
+------------------------------------------------------------------------
+r1822650 | davej | 2018-01-30 14:19:37 +0000 (Tue, 30 Jan 2018) | 1 line
+ 
+ Bug 6222
+------------------------------------------------------------------------
+r1822649 | davej | 2018-01-30 14:17:16 +0000 (Tue, 30 Jan 2018) | 1 line
+ 
+ Bug 7540
+------------------------------------------------------------------------
+r1822483 | davej | 2018-01-28 22:40:16 +0000 (Sun, 28 Jan 2018) | 1 line
+ 
+ Bug 7534
+------------------------------------------------------------------------
+r1822467 | davej | 2018-01-28 16:03:13 +0000 (Sun, 28 Jan 2018) | 1 line
+ 
+ Bug 6946.
+------------------------------------------------------------------------
+r1821749 | davej | 2018-01-20 15:26:02 +0000 (Sat, 20 Jan 2018) | 1 line
+ 
+ Bug 6946
+------------------------------------------------------------------------
+r1819502 | davej | 2017-12-29 18:37:34 +0000 (Fri, 29 Dec 2017) | 1 line
+ 
+ Bug 6420
+------------------------------------------------------------------------
+r1819497 | kmcgrail | 2017-12-29 15:20:04 +0000 (Fri, 29 Dec 2017) | 1 
+line
+ 
+ Bug 7525 - missing includes declarations in spamc
+------------------------------------------------------------------------
+r1819449 | kmcgrail | 2017-12-28 23:14:24 +0000 (Thu, 28 Dec 2017) | 1 
+line
+ 
+ bug 7524 logic patch for getoptlong issues in spamc
+------------------------------------------------------------------------
+r1819447 | kmcgrail | 2017-12-28 22:49:03 +0000 (Thu, 28 Dec 2017) | 1 
+line
+ 
+ Bug 6970 - adding t.co url shortener
+------------------------------------------------------------------------
+r1819442 | kmcgrail | 2017-12-28 22:20:16 +0000 (Thu, 28 Dec 2017) | 1 
+line
+ 
+ bug 7524 - opt cant be freed here or getoptlong fails
+------------------------------------------------------------------------
+r1816710 | kmcgrail | 2017-11-30 12:46:21 +0000 (Thu, 30 Nov 2017) | 1 
+line
+ 
+ Bug 7509 - free for spamc opt
+------------------------------------------------------------------------
+r1815854 | jhardin | 2017-11-20 20:54:17 +0000 (Mon, 20 Nov 2017) | 1 line
+ 
+ Bug 7437 - fix issues with parsing a message having an unclosed HTML 
+<style> and <script> tag (e.g. due to spamc size limits)
+------------------------------------------------------------------------
+r1815828 | jhardin | 2017-11-20 18:21:15 +0000 (Mon, 20 Nov 2017) | 1 line
+ 
+ Bug 7437 - fix issues with parsing a message having an unclosed HTML 
+<style> tag (e.g. due to spamc size limits)
+------------------------------------------------------------------------
+r1815773 | billcole | 2017-11-20 05:09:20 +0000 (Mon, 20 Nov 2017) | 1 
+line
+ 
+ Prevent BodyRuleBaseExtractor from orphaning files in sa-compile runs
+------------------------------------------------------------------------
+r1814251 | kmcgrail | 2017-11-04 04:13:10 +0000 (Sat, 04 Nov 2017) | 1 
+line
+ 
+ Remove META.yml file from MANIFEST. It is added with make dist 
+automatically.  Added .gitignore and build/pga dir to MANIFEST.SKIP.  
+Removed META.yml from svn, it is created from make dist.  Requiring 
+MakeMaker v6.17 to make.  Cleaned up some meta file information.  Set the 
+minimum version for IO::Socket::SSL to 1.76.
+------------------------------------------------------------------------
+r1814016 | billcole | 2017-11-01 22:40:24 +0000 (Wed, 01 Nov 2017) | 1 
+line
+ 
+ Recognize Horde HTTPS protocol in Received header
+------------------------------------------------------------------------
+r1813995 | kmcgrail | 2017-11-01 20:46:34 +0000 (Wed, 01 Nov 2017) | 1 
+line
+ 
+ Adding .gitignore file
+------------------------------------------------------------------------
+r1812595 | kb | 2017-10-18 23:19:59 +0000 (Wed, 18 Oct 2017) | 6 lines
+ 
+ Bug 7256, using a header rule with an eval() function does not work the 
+way
+ this was intended.
+ 
+ Remove HEADER_HOST_IN_BLACKLIST and *_WHITELIST rules.
+ 
+ 
+------------------------------------------------------------------------
+r1812589 | kb | 2017-10-18 22:48:31 +0000 (Wed, 18 Oct 2017) | 3 lines
+ 
+ clarify (URI|HEADER)_HOST_IN_(BLACK|WHITE)LIST descriptions
+ 
+ 
+------------------------------------------------------------------------
+r1808962 | kb | 2017-09-20 00:15:45 +0000 (Wed, 20 Sep 2017) | 1 line
+ 
+ bug 7472: Fix POD errors with perl >= 5.18, wrap exit code items in C<> 
+to avoid parser complaints
+------------------------------------------------------------------------
+r1808358 | billcole | 2017-09-14 15:23:26 +0000 (Thu, 14 Sep 2017) | 1 
+line
+ 
+ Corrected alphabetization of patch contributor credits
+------------------------------------------------------------------------
+r1808350 | billcole | 2017-09-14 15:01:42 +0000 (Thu, 14 Sep 2017) | 2 
+lines
+ 
+ Corrected Dianne Skoll's name in CREDITS
+ 
+------------------------------------------------------------------------
+r1806880 | kb | 2017-09-01 00:10:12 +0000 (Fri, 01 Sep 2017) | 6 lines
+ 
+ RFC 2231 section 3: Parameter Value Continuations
+ 
+ Support MIME parameter value continuations for the filename value, which 
+is
+ actually used by plugins and rules.
+ 
+ 
+------------------------------------------------------------------------
+r1806756 | kb | 2017-08-31 01:41:06 +0000 (Thu, 31 Aug 2017) | 3 lines
+ 
+ bug 7466: decode Content-* header
+ 
+ 
+------------------------------------------------------------------------
+r1806555 | kb | 2017-08-29 10:45:10 +0000 (Tue, 29 Aug 2017) | 3 lines
+ 
+ bug 7361: Allow building against OpenSSL 1.1.0
+ 
+ 
+------------------------------------------------------------------------
+r1806518 | kb | 2017-08-29 00:41:13 +0000 (Tue, 29 Aug 2017) | 3 lines
+ 
+ bug 7453: Fix "use of uninitialized value in pattern match" warning.
+ 
+ 
+------------------------------------------------------------------------
+r1806114 | kb | 2017-08-24 23:50:59 +0000 (Thu, 24 Aug 2017) | 3 lines
+ 
+ bug 7462: "use lib '.'" before "use SATest" for Perl 5.26 compatibility
+ 
+ 
+------------------------------------------------------------------------
+r1806023 | kb | 2017-08-24 10:52:44 +0000 (Thu, 24 Aug 2017) | 3 lines
+ 
+ bug 7441: handle Received-SPF temperror and permerror
+ 
+ 
+------------------------------------------------------------------------
+r1806020 | kb | 2017-08-24 10:32:59 +0000 (Thu, 24 Aug 2017) | 3 lines
+ 
+ bug 7443: handle inline style attributes in table and anchor tags
+ 
+ 
+------------------------------------------------------------------------
+r1805349 | kb | 2017-08-17 23:24:36 +0000 (Thu, 17 Aug 2017) | 3 lines
+ 
+ bug 7340: remove expire flag after token expiration is done
+ 
+ 
+------------------------------------------------------------------------
+r1804611 | kmcgrail | 2017-08-09 21:51:29 +0000 (Wed, 09 Aug 2017) | 1 
+line
+ 
+ Bug 7416 patch from Dave Jones
+------------------------------------------------------------------------
+r1804346 | kb | 2017-08-07 15:57:21 +0000 (Mon, 07 Aug 2017) | 3 lines
+ 
+ bug 7296: sa-learn --folders option: default to type "detect", if not 
+explicitely specified
+ 
+ 
+------------------------------------------------------------------------
+r1804338 | kb | 2017-08-07 14:13:56 +0000 (Mon, 07 Aug 2017) | 3 lines
+ 
+ bug 7447: Delete parse_queue in Message::finish() to prevent memory leak.
+ 
+ 
+------------------------------------------------------------------------
+r1804327 | kb | 2017-08-07 12:43:37 +0000 (Mon, 07 Aug 2017) | 3 lines
+ 
+ bug 7304, replace memcmp with strncmp
+ 
+ 
+------------------------------------------------------------------------
+r1804260 | kb | 2017-08-06 19:20:50 +0000 (Sun, 06 Aug 2017) | 3 lines
+ 
+ fix typo
+ 
+ 
+------------------------------------------------------------------------
+r1803384 | kb | 2017-07-29 17:56:31 +0000 (Sat, 29 Jul 2017) | 3 lines
+ 
+ bug 7155: Fix spamc longoptions prefix-substring handling.
+ 
+ 
+------------------------------------------------------------------------
+r1803335 | kb | 2017-07-28 20:22:06 +0000 (Fri, 28 Jul 2017) | 3 lines
+ 
+ bug 7442: SQL grants, add missing UPDATE privilege
+ 
+ 
+------------------------------------------------------------------------
+r1803310 | kb | 2017-07-28 17:33:10 +0000 (Fri, 28 Jul 2017) | 3 lines
+ 
+ bug 7303, fix "uninitialized value" warning
+ 
+ 
+------------------------------------------------------------------------
+r1796723 | jhardin | 2017-05-30 01:32:39 +0000 (Tue, 30 May 2017) | 3 
+lines
+ 
+ Update __MOZILLA_MSGID per users list discussion, tbird using new format 
+- 8-4-4-4-12 lc hex, was 8.8 UC hex. Recognize both.
+ N.B.: 8-4-4-4-12 UC hex is Apple Mail MUA.
+ Copy from trunk
+------------------------------------------------------------------------
+r1795107 | kmcgrail | 2017-05-14 14:37:05 +0000 (Sun, 14 May 2017) | 1 
+line
+ 
+ More prep work on the build with infrastructure for 3.4.2
+------------------------------------------------------------------------
+r1793220 | davej | 2017-04-29 17:00:44 +0000 (Sat, 29 Apr 2017) | 1 line
+ 
+ Corrected ordering by last name of committers list
+------------------------------------------------------------------------
+r1793217 | davej | 2017-04-29 16:58:22 +0000 (Sat, 29 Apr 2017) | 1 line
+ 
+ Added Dave Jones to committers list
+------------------------------------------------------------------------
+r1792371 | kmcgrail | 2017-04-23 15:19:46 +0000 (Sun, 23 Apr 2017) | 1 
+line
+ 
+ Continued tweaks on the build process
+------------------------------------------------------------------------
+r1792309 | kmcgrail | 2017-04-22 17:42:58 +0000 (Sat, 22 Apr 2017) | 1 
+line
+ 
+ preparing to release 3.4.2 pre3
+------------------------------------------------------------------------
+r1792301 | kmcgrail | 2017-04-22 16:37:41 +0000 (Sat, 22 Apr 2017) | 1 
+line
+ 
+ Bug 7411 FORGED_MUA_MOZILLA
+------------------------------------------------------------------------
+r1792295 | kmcgrail | 2017-04-22 15:43:11 +0000 (Sat, 22 Apr 2017) | 1 
+line
+ 
+ working through bugs in the release process
+------------------------------------------------------------------------
+r1792266 | kmcgrail | 2017-04-22 06:08:20 +0000 (Sat, 22 Apr 2017) | 1 
+line
+ 
+ preparing to release 3.4.2-pre1
+------------------------------------------------------------------------
+r1792260 | kmcgrail | 2017-04-22 05:20:27 +0000 (Sat, 22 Apr 2017) | 1 
+line
+ 
+ Unifying small rule changes between 3.4 and trunk
+------------------------------------------------------------------------
+r1791591 | sidney | 2017-04-16 10:19:00 +0000 (Sun, 16 Apr 2017) | 2 lines
+ 
+ Bug 7225: A regexp for parsing an IPv4 address inconsistently 
+allows/disallows a leading zero
+ Fix problem in  port from trunk
+------------------------------------------------------------------------
+r1791583 | sidney | 2017-04-16 09:36:02 +0000 (Sun, 16 Apr 2017) | 1 line
+ 
+ fix typo in comment
+------------------------------------------------------------------------
+r1791582 | sidney | 2017-04-16 09:26:14 +0000 (Sun, 16 Apr 2017) | 1 line
+ 
+ Merged from trunk - bug 7198: Let whitelist_from_rcvd also accept CIDR 
+notation and IPv6 address [from revision 1681350]
+------------------------------------------------------------------------
+r1791580 | sidney | 2017-04-16 09:06:27 +0000 (Sun, 16 Apr 2017) | 1 line
+ 
+ Merged from trunk - Bug 7212: code compaction (was: Warning of 
+uninitialized value) [from revision 1685857]
+------------------------------------------------------------------------
+r1791577 | sidney | 2017-04-16 08:32:11 +0000 (Sun, 16 Apr 2017) | 1 line
+ 
+ bug 7410 - Port to 3.4 branch some cleanup that was committed to trunk 
+in Plugin/HeaderEval
+------------------------------------------------------------------------
+r1791576 | sidney | 2017-04-16 07:47:45 +0000 (Sun, 16 Apr 2017) | 1 line
+ 
+ Merged from trunk - bug 7409 - get plugins FreeMail, TextCat and VBounce 
+ready to deal with perl characters if they happen to reach them in a mail 
+body [from revision 1707595]
+------------------------------------------------------------------------
+r1791573 | sidney | 2017-04-16 07:28:59 +0000 (Sun, 16 Apr 2017) | 2 lines
+ 
+ Bug 7231 - Net::DNS 1.01 returns answers formatted differently, breaks SA
+ Port more of the changes that were committed to trunk for this as part 
+of syncing 3.4 branch with trunk before 3.4.2 release
+------------------------------------------------------------------------
+r1791571 | sidney | 2017-04-16 06:18:27 +0000 (Sun, 16 Apr 2017) | 1 line
+ 
+ Merged from trunk - Bug 7285: Make the DKIM selector a tag [from 
+revision 1749299]
+------------------------------------------------------------------------
+r1791569 | sidney | 2017-04-16 06:00:55 +0000 (Sun, 16 Apr 2017) | 1 line
+ 
+ Merge from trunk - Bug 7265 - DNS resolving breaks with Net::DNS 1.03
+------------------------------------------------------------------------
+r1791555 | sidney | 2017-04-16 02:16:05 +0000 (Sun, 16 Apr 2017) | 1 line
+ 
+ Merged from trunk - Bug 7408 - Change some methods in Node.pm from 
+methods to ordinary subroutines [from revision 1707588]
+------------------------------------------------------------------------
+r1791487 | sidney | 2017-04-15 10:07:38 +0000 (Sat, 15 Apr 2017) | 1 line
+ 
+ Merged from trunk - Bug 6608: Make thinks that Digest::SHA is optional 
+AND required - Make Digest::SHA required and Digest::SHA1 as optional 
+[from revision 1749931]
+------------------------------------------------------------------------
+r1791474 | sidney | 2017-04-15 08:55:53 +0000 (Sat, 15 Apr 2017) | 1 line
+ 
+ Merged from trunk - Bug 7225: A regexp for parsing an IPv4 address 
+inconsistently allows/disallows a leading zero [from revision 1692208]
+------------------------------------------------------------------------
+r1791469 | sidney | 2017-04-15 08:19:48 +0000 (Sat, 15 Apr 2017) | 1 line
+ 
+ Sync with trunk before 3.4.2 release - port update of version number to 
+3.4.2
+------------------------------------------------------------------------
+r1791456 | sidney | 2017-04-15 07:01:26 +0000 (Sat, 15 Apr 2017) | 1 line
+ 
+ Bug 7406 - Update branch 3.4 version of 20_aux_tlds.cf with TLD changes 
+previously committed to trunk
+------------------------------------------------------------------------
+r1791448 | sidney | 2017-04-15 04:38:56 +0000 (Sat, 15 Apr 2017) | 1 line
+ 
+ Merged from trunk - Bug 7192 moving MILLION_USD, NA_DOLLARS & US_DOLLARS 
+to sandbox for ruleqa/promotion, etc. [from revision 1679253]
+------------------------------------------------------------------------
+r1791428 | sidney | 2017-04-14 23:21:40 +0000 (Fri, 14 Apr 2017) | 1 line
+ 
+ Merged from trunk - Clarifying Copyright - bug 7263 [from revision 
+1714592]
+------------------------------------------------------------------------
+r1791426 | sidney | 2017-04-14 22:35:30 +0000 (Fri, 14 Apr 2017) | 2 lines
+ 
+ Bug 7405 - Error in commit of new option in seek-phrases-in-log was 
+fixed in trunk after 3.4 was branched
+ This makes 3.4 branch same as what is in trunk
+------------------------------------------------------------------------
+r1791197 | billcole | 2017-04-13 01:22:08 +0000 (Thu, 13 Apr 2017) | 3 
+lines
+ 
+ Fixed to use sitebin instead of hardcoded '/bin'
+ 
+ 
+------------------------------------------------------------------------
+r1791044 | billcole | 2017-04-11 22:03:38 +0000 (Tue, 11 Apr 2017) | 3 
+lines
+ 
+ Assuring that the test doesn't mess with /{etc,var}/opt/ if PREFIX is 
+/opt/$DIR
+ 
+ 
+------------------------------------------------------------------------
+r1791013 | mmartinec | 2017-04-11 18:56:16 +0000 (Tue, 11 Apr 2017) | 1 
+line
+ 
+ Bug 7404: Bad regexp (and logic) in MS::PerMsgStatus::get_content_preview
+------------------------------------------------------------------------
+r1790998 | kmcgrail | 2017-04-11 16:31:20 +0000 (Tue, 11 Apr 2017) | 1 
+line
+ 
+ fix for 7181 on 3.4 - same as revision 1790984.
+------------------------------------------------------------------------
+r1790926 | kmcgrail | 2017-04-11 05:54:45 +0000 (Tue, 11 Apr 2017) | 5 
+lines
+ 
+ KG: Syncing Trunk to 3.4: 
+ 
+ Revision 1707582 "random changes, cosmetic or trivial - 
+ 
+ Revision 1707583 "Plugin/Bayes.pm: add missing $tokprefix to u8: and 8: 
+tokens, shorten also tokens in Content-Disposition and 
+Content-Transfer-Encoding"
+------------------------------------------------------------------------
+r1790920 | kmcgrail | 2017-04-11 05:05:28 +0000 (Tue, 11 Apr 2017) | 1 
+line
+ 
+ KG: Syncing Trunk to 3.4: RFC 4408 -> 7208 comment
+------------------------------------------------------------------------
+r1790919 | kmcgrail | 2017-04-11 04:58:54 +0000 (Tue, 11 Apr 2017) | 1 
+line
+ 
+ KG: Syncing Trunk to 3.4: missed a use bytes
+------------------------------------------------------------------------
+r1790918 | kmcgrail | 2017-04-11 04:56:50 +0000 (Tue, 11 Apr 2017) | 1 
+line
+ 
+ Removing deprecated RegistrarBoundaries.pm and related routines/MANIFEST 
+entries per bug 7170 and added rules-extras/
+------------------------------------------------------------------------
+r1790913 | kmcgrail | 2017-04-11 03:59:33 +0000 (Tue, 11 Apr 2017) | 1 
+line
+ 
+ KG: Syncing Trunk to 3.4: sync TxRep.pm (imports comments and reformats 
+a little whitespace)
+------------------------------------------------------------------------
+r1790912 | kmcgrail | 2017-04-11 03:54:45 +0000 (Tue, 11 Apr 2017) | 1 
+line
+ 
+ KG: Syncing Trunk to 3.4: 
+https://bz.apache.org/SpamAssassin/show_bug.cgi?id=7232 removing use bytes
+------------------------------------------------------------------------
+r1790909 | kmcgrail | 2017-04-11 03:17:35 +0000 (Tue, 11 Apr 2017) | 1 
+line
+ 
+ KG: Syncing Trunk to 3.4: 
+https://bz.apache.org/SpamAssassin/show_bug.cgi?id=7305
+------------------------------------------------------------------------
+r1790908 | kmcgrail | 2017-04-11 03:15:10 +0000 (Tue, 11 Apr 2017) | 1 
+line
+ 
+ KG: Syncing Trunk to 3.4: A small change to the redis bayes config
+------------------------------------------------------------------------
+r1790907 | kmcgrail | 2017-04-11 02:07:56 +0000 (Tue, 11 Apr 2017) | 1 
+line
+ 
+ Working with Kevin Golding to sync trunk & 3.4 branch: First sweep is a 
+small one, it just merges in release details and metadata type files.
+------------------------------------------------------------------------
+r1790906 | kmcgrail | 2017-04-11 02:04:24 +0000 (Tue, 11 Apr 2017) | 1 
+line
+ 
+ Small whitespace cleanup for readability
+------------------------------------------------------------------------
+r1790769 | kmcgrail | 2017-04-10 02:12:14 +0000 (Mon, 10 Apr 2017) | 1 
+line
+ 
+ Minor patch to check for re2c binary
+------------------------------------------------------------------------
+r1782717 | jhardin | 2017-02-13 02:16:44 +0000 (Mon, 13 Feb 2017) | 1 line
+ 
+ Fix bug#7367: Don't assume cwd (".") is in @INC, it may be removed for 
+security reasons - see CVE-2016-1238
+------------------------------------------------------------------------
+r1782715 | jhardin | 2017-02-13 01:15:03 +0000 (Mon, 13 Feb 2017) | 3 
+lines
+ 
+ Merge revision 1782713 from trunk:
+ Fix $JOBS (thx Tom Hendrikx)
+ Add log file symlinks (thx Kevin A. McGrail)
+------------------------------------------------------------------------
+r1750443 | sidney | 2016-06-28 04:41:16 +0000 (Tue, 28 Jun 2016) | 1 line
+ 
+ New PMC member, new committer
+------------------------------------------------------------------------
+r1749347 | mmartinec | 2016-06-20 14:37:18 +0000 (Mon, 20 Jun 2016) | 1 
+line
+ 
+ Bad SSL/TLS Version Default - applied Proposed Patch v2: support for 
+SSLv3 removed - removed t/spamd_ssl_tls.t and t/spamd_ssl_v3.t
+------------------------------------------------------------------------
+r1749346 | mmartinec | 2016-06-20 14:35:01 +0000 (Mon, 20 Jun 2016) | 1 
+line
+ 
+ Bad SSL/TLS Version Default - applied Proposed Patch v2: support for 
+SSLv3 removed, removed spamd option --ssl-version, removed spamc option 
+--ssl=sslv3
+------------------------------------------------------------------------
+r1749230 | mmartinec | 2016-06-19 23:15:55 +0000 (Sun, 19 Jun 2016) | 1 
+line
+ 
+ Bug 6461 - whatis parse fails for some man pages - adding missing NAME, 
+SYNOPSIS, DESCRIPTION
+------------------------------------------------------------------------
+r1749190 | mmartinec | 2016-06-19 17:44:26 +0000 (Sun, 19 Jun 2016) | 1 
+line
+ 
+ Bug 6461 - whatis parse fails for some man pages - fixing POD
+------------------------------------------------------------------------
+r1748642 | mmartinec | 2016-06-15 23:10:23 +0000 (Wed, 15 Jun 2016) | 1 
+line
+ 
+ Bug 7321: impossible to disable ipv6 in spamc - document options -4 and 
+-6 in spamc.pod
+------------------------------------------------------------------------
+r1748623 | mmartinec | 2016-06-15 19:20:50 +0000 (Wed, 15 Jun 2016) | 1 
+line
+ 
+ Bug 7326: Add log info about revoke report to Razor2 - log "spam 
+revoked" at the same log level as "spam reported" for consistency
+------------------------------------------------------------------------
+r1726002 | mmartinec | 2016-01-21 16:17:13 +0000 (Thu, 21 Jan 2016) | 1 
+line
+ 
+ added a comment that a bug 99755 in HTML::Parser was fixed in 3.72
+------------------------------------------------------------------------
+r1722535 | kmcgrail | 2016-01-01 19:01:04 +0000 (Fri, 01 Jan 2016) | 1 
+line
+ 
+ Fix Pod error - 7283
+------------------------------------------------------------------------
+r1721238 | kmcgrail | 2015-12-21 19:25:57 +0000 (Mon, 21 Dec 2015) | 1 
+line
+ 
+ Change #1 from bug 7279 for SURBL list changes for 3.4
+------------------------------------------------------------------------
+r1720874 | mmartinec | 2015-12-19 01:24:12 +0000 (Sat, 19 Dec 2015) | 1 
+line
+ 
+ updated a comment
+------------------------------------------------------------------------
+r1720872 | mmartinec | 2015-12-19 00:46:26 +0000 (Sat, 19 Dec 2015) | 1 
+line
+ 
+ Bug 7278: redirector_pattern - reverse order so hardcoded check done last
+------------------------------------------------------------------------
+r1720454 | jquinn | 2015-12-16 21:06:45 +0000 (Wed, 16 Dec 2015) | 1 line
+ 
+ new Received authentication methods for CommuniGate
+------------------------------------------------------------------------
+r1720441 | jquinn | 2015-12-16 20:23:15 +0000 (Wed, 16 Dec 2015) | 1 line
+ 
+ Updated TxRep documentation
+------------------------------------------------------------------------
+r1720216 | jquinn | 2015-12-15 18:25:27 +0000 (Tue, 15 Dec 2015) | 1 line
+ 
+ fix for username inconsistencies in bug 7191
+------------------------------------------------------------------------
+r1716143 | mmartinec | 2015-11-24 14:16:16 +0000 (Tue, 24 Nov 2015) | 1 
+line
+ 
+ Bug 7266: scheme name is case insensitive, digits 1-8 are allowed too
+------------------------------------------------------------------------
+r1716140 | mmartinec | 2015-11-24 14:00:54 +0000 (Tue, 24 Nov 2015) | 1 
+line
+ 
+ Bug 7266 - no IPv6 address on sa-update.secnap.net - @af -> @my_af
+------------------------------------------------------------------------
+r1716132 | mmartinec | 2015-11-24 13:51:03 +0000 (Tue, 24 Nov 2015) | 1 
+line
+ 
+ Bug 7266 - no IPv6 address on sa-update.secnap.net - missing semicolon, 
+tabs->space, aestetics
+------------------------------------------------------------------------
+r1715936 | jquinn | 2015-11-23 19:58:50 +0000 (Mon, 23 Nov 2015) | 1 line
+ 
+ sa-update tries both ipv6 and ipv4
+------------------------------------------------------------------------
+r1715248 | mmartinec | 2015-11-19 19:22:25 +0000 (Thu, 19 Nov 2015) | 1 
+line
+ 
+ Bug 7265: DNS resolving breaks with Net::DNS 1.03 - fixing Plugin/DKIM.pm
+------------------------------------------------------------------------
+r1715197 | mmartinec | 2015-11-19 15:31:49 +0000 (Thu, 19 Nov 2015) | 1 
+line
+ 
+ Bug 7265: DNS resolving breaks with Net::DNS 1.03
+------------------------------------------------------------------------
+r1714589 | kmcgrail | 2015-11-16 14:14:51 +0000 (Mon, 16 Nov 2015) | 1 
+line
+ 
+ Clarifying Copyright - bug 7263
+------------------------------------------------------------------------
+r1714143 | mmartinec | 2015-11-12 23:59:41 +0000 (Thu, 12 Nov 2015) | 1 
+line
+ 
+ Bug 7264 - Allow '(' and ')' in paths when untainting
+------------------------------------------------------------------------
+r1713710 | jquinn | 2015-11-10 18:20:36 +0000 (Tue, 10 Nov 2015) | 1 line
+ 
+ Wrong SA version in readme
+------------------------------------------------------------------------
+r1713709 | jquinn | 2015-11-10 18:15:48 +0000 (Tue, 10 Nov 2015) | 1 line
+ 
+ Windows option to enable building spamd
+------------------------------------------------------------------------
+r1711889 | kmcgrail | 2015-11-02 03:27:24 +0000 (Mon, 02 Nov 2015) | 1 
+line
+ 
+ Fix Credits File for a few international names
+------------------------------------------------------------------------
+r1710612 | jquinn | 2015-10-26 15:03:14 +0000 (Mon, 26 Oct 2015) | 1 line
+ 
+ better handling of newlines in debug output
+------------------------------------------------------------------------
+r1710602 | jquinn | 2015-10-26 14:05:56 +0000 (Mon, 26 Oct 2015) | 1 line
+ 
+ makefile that is nicer for windows
+------------------------------------------------------------------------
+r1708487 | sidney | 2015-10-13 19:11:23 +0000 (Tue, 13 Oct 2015) | 1 line
+ 
+ bug 7251: merge from trunk - temp dir creation all using 
+Util::secure_tmpdir() instead of duplicating code and possibly 
+introducing bugs
+------------------------------------------------------------------------
+r1706851 | jquinn | 2015-10-05 15:21:26 +0000 (Mon, 05 Oct 2015) | 1 line
+ 
+ decode MIME attachment names for better rule matching
+------------------------------------------------------------------------
+r1698172 | jquinn | 2015-08-27 14:43:31 +0000 (Thu, 27 Aug 2015) | 1 line
+ 
+ Ugly fix for TxRep data being updated incorrectly
+------------------------------------------------------------------------
+r1694126 | mmartinec | 2015-08-04 23:16:38 +0000 (Tue, 04 Aug 2015) | 1 
+line
+ 
+ Bug 7231: Net::DNS 1.01 returns answers formatted differently, breaks SA
+------------------------------------------------------------------------
+r1693640 | mmartinec | 2015-07-31 19:03:30 +0000 (Fri, 31 Jul 2015) | 1 
+line
+ 
+ Plugin::DKIM warning: Redundant argument in printf
+------------------------------------------------------------------------
+r1693414 | mmartinec | 2015-07-30 11:45:48 +0000 (Thu, 30 Jul 2015) | 1 
+line
+ 
+ Bug 7226: Enhance whitelist_from_dkim to let it accept signing subdomains
+------------------------------------------------------------------------
+r1691992 | mmartinec | 2015-07-20 18:24:48 +0000 (Mon, 20 Jul 2015) | 1 
+line
+ 
+ Bug 7223: Net::DNS 1.01 breaks DnsResolver
+------------------------------------------------------------------------
+r1688247 | jquinn | 2015-06-29 15:03:27 +0000 (Mon, 29 Jun 2015) | 1 line
+ 
+ anchored txrep relay helo check for extra safety
+------------------------------------------------------------------------
+r1688201 | jquinn | 2015-06-29 13:11:21 +0000 (Mon, 29 Jun 2015) | 1 line
+ 
+ fix for txrep sql that is not valid postgres
+------------------------------------------------------------------------
+r1687548 | hege | 2015-06-25 15:14:03 +0000 (Thu, 25 Jun 2015) | 2 lines
+ 
+ Bug 7216: TextCat documentation enhancement and _TEXTCATRESULTS_ tag
+ 
+------------------------------------------------------------------------
+r1686458 | mmartinec | 2015-06-19 17:11:38 +0000 (Fri, 19 Jun 2015) | 1 
+line
+ 
+ Bug 7213: UNPARSEABLE_RELAY false positive on valid 'LHLO ... LMTP' 
+header
+------------------------------------------------------------------------
+r1685843 | kmcgrail | 2015-06-16 14:17:18 +0000 (Tue, 16 Jun 2015) | 1 
+line
+ 
+ Fixed uninitialized error with $line - Thanks to Franz Schwartau bug 
+7212 - 3.4
+------------------------------------------------------------------------
+r1684652 | kmcgrail | 2015-06-10 12:15:22 +0000 (Wed, 10 Jun 2015) | 1 
+line
+ 
+ reverting accidental commit
+------------------------------------------------------------------------
+r1684648 | kmcgrail | 2015-06-10 12:03:35 +0000 (Wed, 10 Jun 2015) | 1 
+line
+ 
+ referencing SF account in build/README for consideration at next release
+------------------------------------------------------------------------
+r1684226 | jquinn | 2015-06-08 17:11:20 +0000 (Mon, 08 Jun 2015) | 1 line
+ 
+ Typo in TxRep.pm
+------------------------------------------------------------------------
+r1681230 | kmcgrail | 2015-05-22 20:18:31 +0000 (Fri, 22 May 2015) | 1 
+line
+ 
+ Cleanup of spamd-apache2 for httpd 2.4 - bug 7197 - 3.4
+------------------------------------------------------------------------
+r1681095 | kmcgrail | 2015-05-22 12:45:48 +0000 (Fri, 22 May 2015) | 1 
+line
+ 
+ Cleaning up the copyright/author/etc. in apache-spamd to be ASF compliant
+------------------------------------------------------------------------
+r1679656 | mmartinec | 2015-05-15 23:01:12 +0000 (Fri, 15 May 2015) | 1 
+line
+ 
+ Bug 7195: Util warnings from trim_domain()
+------------------------------------------------------------------------
+r1679653 | mmartinec | 2015-05-15 22:30:39 +0000 (Fri, 15 May 2015) | 1 
+line
+ 
+ Bug 7196: PerMsgStatus Warning
+------------------------------------------------------------------------
+r1679280 | kmcgrail | 2015-05-13 21:28:52 +0000 (Wed, 13 May 2015) | 1 
+line
+ 
+ adds --timing parm for spamd for 3.4 branch - bug 7194
+------------------------------------------------------------------------
+r1678016 | kmcgrail | 2015-05-06 14:59:03 +0000 (Wed, 06 May 2015) | 1 
+line
+ 
+ bug 7164 - 3.4 commit - small clean up on whitespace/logic for clarity 
+and added logic for msgscore undefined in Txrep.pm
+------------------------------------------------------------------------
+r1677162 | kmcgrail | 2015-05-01 14:53:15 +0000 (Fri, 01 May 2015) | 1 
+line
+ 
+ 3.4 Commit for bug 7186 lowering TVD_PH_BODY_ACCOUNTS_PRE scores to 0.001
+------------------------------------------------------------------------
+r1676888 | kmcgrail | 2015-04-30 03:03:36 +0000 (Thu, 30 Apr 2015) | 1 
+line
+ 
+ 3.4 commit - adding compress header debug statement - bug 7183
+------------------------------------------------------------------------
+r1676800 | kmcgrail | 2015-04-29 17:19:13 +0000 (Wed, 29 Apr 2015) | 1 
+line
+ 
+ unifying 3.4 branch build readme with trunk
+------------------------------------------------------------------------
+r1676787 | kmcgrail | 2015-04-29 16:36:50 +0000 (Wed, 29 Apr 2015) | 1 
+line
+ 
+ 3.4 branch Commit of Bug 7182 for raise from 15 to 20
+------------------------------------------------------------------------
+r1676620 | kmcgrail | 2015-04-28 20:38:08 +0000 (Tue, 28 Apr 2015) | 1 
+line
+ 
+ 3.4.2 devel cycle started
+------------------------------------------------------------------------
+r1676616 | kmcgrail | 2015-04-28 20:36:05 +0000 (Tue, 28 Apr 2015) | 1 
+line
+ 
+ Creating 3.4 branch based on 3.4.1 so that trunk can go to 4.0
+------------------------------------------------------------------------
